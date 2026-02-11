@@ -6,25 +6,35 @@ import type { Article } from './types';
 const articlesDirectory = path.join(process.cwd(), 'src/content/articles');
 
 function getArticlesData(): Article[] {
-  const fileNames = fs.readdirSync(articlesDirectory);
-  const allArticlesData = fileNames.map((fileName) => {
-    const slug = fileName.replace(/\.mdx$/, '');
-    const fullPath = path.join(articlesDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+  let fileNames: string[];
+  try {
+    fileNames = fs.readdirSync(articlesDirectory);
+  } catch (err) {
+    // If the directory doesn't exist, return an empty array.
+    // This can happen during build time in some environments.
+    return [];
+  }
 
-    const { data, content } = matter(fileContents);
+  const allArticlesData = fileNames
+    .filter((fileName) => fileName.endsWith('.mdx'))
+    .map((fileName) => {
+      const slug = fileName.replace(/\.mdx$/, '');
+      const fullPath = path.join(articlesDirectory, fileName);
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-    return {
-      slug,
-      title: data.title,
-      description: data.description,
-      category: data.category,
-      author: data.author,
-      publishedAt: data.publishedAt,
-      image: { id: data.imageId },
-      content,
-    } as Article;
-  });
+      const { data, content } = matter(fileContents);
+
+      return {
+        slug,
+        title: data.title,
+        description: data.description,
+        category: data.category,
+        author: data.author,
+        publishedAt: data.publishedAt,
+        image: { id: data.imageId },
+        content,
+      } as Article;
+    });
 
   return allArticlesData.sort((a, b) => {
     if (new Date(a.publishedAt) < new Date(b.publishedAt)) {
