@@ -155,6 +155,24 @@
       "description": "Ребенок сосредоточенно выполняет упражнения для языка перед зеркалом.",
       "imageUrl": "https://images.unsplash.com/photo-1589139049232-0545a706599b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjBleGVyY2lzZXN8ZW58MHx8fHwxNzcxMTQ2MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "speech exercises"
+    },
+    {
+      "id": "article-26",
+      "description": "Ребенок 2-3 лет играет с развивающими игрушками на полу.",
+      "imageUrl": "https://images.unsplash.com/photo-1599662875955-42624d0831c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc3MTIxMjE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child development"
+    },
+    {
+      "id": "article-27",
+      "description": "Заботливый родитель внимательно и спокойно слушает своего ребенка.",
+      "imageUrl": "https://images.unsplash.com/photo-1576226693893-946a36270d47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBsaXN0ZW5pbmd8ZW58MHx8fHwxNzcxMjEyMTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parent listening"
+    },
+    {
+      "id": "article-28",
+      "description": "Ребенок с трудом, но старательно концентрируется на выполнении домашнего задания.",
+      "imageUrl": "https://images.unsplash.com/photo-1468546220842-28494951b6a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGZvY3VzaW5nfGVufDB8fHx8MTc3MTIxMjE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child focusing"
     }
   ]
 }
