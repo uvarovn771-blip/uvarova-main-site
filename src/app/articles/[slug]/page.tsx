@@ -33,7 +33,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ArticlePage({
+export default async function ArticlePage({
   params,
 }: {
   params: { slug:string };
