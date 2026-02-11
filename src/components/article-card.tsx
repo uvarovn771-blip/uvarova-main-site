@@ -42,7 +42,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
             {article.description}
           </p>
           <div className="mt-4 flex items-center text-sm font-medium text-primary">
-            Read more <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+            Читать далее <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </div>
         </CardContent>
       </Card>

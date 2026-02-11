@@ -1,4 +1,4 @@
-export type ArticleCategory = 'Speech Launch' | 'Exercises' | 'Parenting Tips';
+export type ArticleCategory = 'Запуск речи' | 'Упражнения' | 'Советы родителям';
 
 export type Article = {
   slug: string;

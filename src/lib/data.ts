@@ -3,63 +3,63 @@ import type { Article } from './types';
 export const articles: Article[] = [
   {
     slug: 'the-first-50-words',
-    title: 'The First 50 Words: A Guide for Parents',
-    description: 'Understand the milestones of early language development and how you can encourage your child to start talking.',
-    category: 'Speech Launch',
+    title: 'Первые 50 слов: руководство для родителей',
+    description: 'Узнайте об основных этапах раннего развития речи и о том, как вы можете побудить своего ребенка начать говорить.',
+    category: 'Запуск речи',
     author: 'Dr. Evelyn Reed',
     publishedAt: '2024-05-15T09:00:00Z',
     image: { id: 'article-1' },
-    content: `Starting the journey of speech can be both exciting and nerve-wracking for parents. The first 50 words are a significant milestone, typically occurring between 18 to 24 months. This period marks a "word explosion" where children rapidly expand their vocabulary.\n\nTo support this growth, focus on everyday interactions. Narrate your day, label objects around the house, and respond enthusiastically to your child's attempts at communication, even if they're just babbles. Reading simple, repetitive books daily is another powerful tool to introduce new words in a fun and engaging way.`
+    content: `Начало речевого пути может быть одновременно захватывающим и нервным для родителей. Первые 50 слов — это важный рубеж, который обычно достигается в возрасте от 18 до 24 месяцев. Этот период знаменует собой «словесный взрыв», когда дети быстро расширяют свой словарный запас.\n\nЧтобы поддержать этот рост, сосредоточьтесь на повседневном взаимодействии. Рассказывайте о своем дне, называйте предметы в доме и с энтузиазмом реагируйте на попытки вашего ребенка общаться, даже если это просто лепет. Ежедневное чтение простых, повторяющихся книг — еще один мощный инструмент для знакомства с новыми словами в увлекательной и увлекательной форме.`
   },
   {
     slug: 'fun-articulation-exercises',
-    title: 'Fun Articulation Exercises to Do at Home',
-    description: 'Turn speech practice into playtime with these engaging and effective articulation exercises for young children.',
-    category: 'Exercises',
+    title: 'Веселые упражнения на артикуляцию для дома',
+    description: 'Превратите речевую практику в игру с помощью этих увлекательных и эффективных упражнений на артикуляцию для маленьких детей.',
+    category: 'Упражнения',
     author: 'Mark Chen, SLP',
     publishedAt: '2024-05-20T11:30:00Z',
     image: { id: 'article-2' },
-    content: `Articulation is the clear and distinct pronunciation of sounds in speech. If your child struggles with certain sounds, turning practice into a game can make all the difference.\n\nTry "sound treasure hunts" where you look for objects around the house that start with a target sound (e.g., 's' for 'sock', 'sun', 'spoon'). Another great activity is using mirrors to make silly faces while practicing sounds like 'ooo' and 'eee'. This helps children see how their mouth moves to create different sounds. Remember to keep it light, fun, and pressure-free.`
+    content: `Артикуляция — это четкое и внятное произношение звуков в речи. Если ваш ребенок испытывает трудности с определенными звуками, превращение практики в игру может все изменить.\n\nПопробуйте «охоту за сокровищами звуков», где вы ищете предметы по дому, которые начинаются с целевого звука (например, «с» для «носок», «солнце», «ложка»). Еще одно замечательное занятие — использовать зеркала, чтобы делать смешные рожицы, практикуя звуки вроде «у-у-у» и «и-и-и». Это помогает детям увидеть, как движется их рот, чтобы создавать разные звуки. Помните, что все должно быть легко, весело и без давления.`
   },
   {
     slug: 'reducing-toddler-frustration',
-    title: 'When Words Wont Come: Reducing Toddler Frustration',
-    description: 'Learn strategies to help your toddler communicate their needs and reduce frustration when they struggle with words.',
-    category: 'Parenting Tips',
+    title: 'Когда слова не приходят: как уменьшить разочарование у малыша',
+    description: 'Изучите стратегии, которые помогут вашему малышу общаться и уменьшить разочарование, когда у него возникают проблемы со словами.',
+    category: 'Советы родителям',
     author: 'Dr. Evelyn Reed',
     publishedAt: '2024-05-25T14:00:00Z',
     image: { id: 'article-3' },
-    content: `It's common for toddlers to feel frustrated when they can't express their wants and needs. This communication gap can lead to tantrums and stress for both child and parent.\n\nOne effective strategy is to introduce simple sign language for key words like "more," "all done," and "help." This gives them a way to communicate before they have the verbal skills. Also, validate their feelings by saying, "It's so frustrating when I don't understand what you want. Can you show me?" This empathy can defuse the situation and strengthen your bond.`
+    content: `Малыши часто расстраиваются, когда не могут выразить свои желания и потребности. Этот разрыв в общении может привести к истерикам и стрессу как для ребенка, так и для родителя.\n\nОдна из эффективных стратегий — ввести простой язык жестов для ключевых слов, таких как «еще», «все» и «помоги». Это дает им способ общения до того, как у них появятся вербальные навыки. Кроме того, подтвердите их чувства, сказав: «Это так расстраивает, когда я не понимаю, чего ты хочешь. Можешь мне показать?» Такое сочувствие может разрядить обстановку и укрепить вашу связь.`
   },
   {
     slug: 'how-to-choose-a-speech-therapist',
-    title: 'How to Choose the Right Speech Therapist for Your Child',
-    description: 'A practical guide to finding a qualified and compatible speech-language pathologist (SLP) for your family.',
-    category: 'Parenting Tips',
+    title: 'Как выбрать подходящего логопеда для вашего ребенка',
+    description: 'Практическое руководство по поиску квалифицированного и подходящего логопеда (SLP) для вашей семьи.',
+    category: 'Советы родителям',
     author: 'Laura Santos',
     publishedAt: '2024-06-01T10:00:00Z',
     image: { id: 'article-4' },
-    content: `Finding the right speech therapist is a crucial step in your child's development journey. Start by looking for a certified Speech-Language Pathologist (SLP) with experience in pediatrics and your child's specific challenges.\n\nDuring an initial consultation, ask about their therapy approach, how they involve parents, and what progress might look like. Most importantly, observe how they interact with your child. A good therapist will build a positive, playful rapport, making therapy a place your child wants to be.`
+    content: `Поиск подходящего логопеда — это решающий шаг на пути развития вашего ребенка. Начните с поиска сертифицированного логопеда (SLP) с опытом работы в педиатрии и с конкретными проблемами вашего ребенка.\n\nВо время первоначальной консультации спросите об их подходе к терапии, о том, как они вовлекают родителей и как может выглядеть прогресс. Самое главное, наблюдайте, как они взаимодействуют с вашим ребенком. Хороший терапевт наладит позитивные, игровые отношения, сделав терапию местом, куда ваш ребенок захочет приходить.`
   },
   {
     slug: 'the-power-of-play-in-speech-therapy',
-    title: 'The Power of Play in Speech Therapy',
-    description: 'Discover how play-based therapy helps children learn and practice communication skills in a natural, motivating environment.',
-    category: 'Speech Launch',
+    title: 'Сила игры в логопедии',
+    description: 'Узнайте, как игровая терапия помогает детям учиться и практиковать навыки общения в естественной, мотивирующей среде.',
+    category: 'Запуск речи',
     author: 'Mark Chen, SLP',
     publishedAt: '2024-06-05T16:20:00Z',
     image: { id: 'article-5' },
-    content: `For children, play is serious work. It's how they learn about the world, and it's one of the most effective tools in speech therapy. Play-based therapy embeds communication goals into activities the child already loves.\n\nInstead of drilling flashcards, a therapist might practice turn-taking and vocabulary while playing with a toy farm ("My turn for the cow! The cow says 'moo'!"). This natural context helps children generalize skills to their everyday life and fosters a genuine love for communication.`
+    content: `Для детей игра — это серьезная работа. Так они познают мир, и это один из самых эффективных инструментов в логопедии. Игровая терапия встраивает коммуникативные цели в занятия, которые ребенок уже любит.\n\nВместо того чтобы зубрить карточки, терапевт может практиковать поочередность и словарный запас, играя с игрушечной фермой («Моя очередь корова! Корова говорит «му-у»!»). Этот естественный контекст помогает детям переносить навыки в повседневную жизнь и воспитывает искреннюю любовь к общению.`
   },
   {
     slug: 'making-sounds-visual',
-    title: 'Making Sounds Visual: Tips for Tricky Pronunciations',
-    description: 'Explore techniques that use visual and tactile cues to help children master difficult sounds like "R," "L," and "TH".',
-    category: 'Exercises',
+    title: 'Визуализация звуков: советы для трудных произношений',
+    description: 'Изучите техники, использующие визуальные и тактильные подсказки, чтобы помочь детям овладеть сложными звуками.',
+    category: 'Упражнения',
     author: 'Dr. Evelyn Reed',
     publishedAt: '2024-06-10T09:45:00Z',
     image: { id: 'article-6' },
-    content: `Some sounds are harder to learn because the tongue and lip movements are less visible. For these tricky sounds, making them visual can be a breakthrough.\n\nFor the 'L' sound, use a dab of peanut butter or a lollipop on the spot behind the top teeth to show the child where their tongue should go. For 'TH', practice by sticking the tongue out slightly between the teeth while looking in a mirror. These multi-sensory approaches connect the physical action to the sound, making it easier for children to understand and replicate.`
+    content: `Некоторые звуки труднее выучить, потому что движения языка и губ менее заметны. Для этих сложных звуков визуализация может стать прорывом.\n\nДля звука «Л» нанесите немного арахисового масла или леденец на место за верхними зубами, чтобы показать ребенку, куда должен идти его язык. Для межзубных звуков потренируйтесь, слегка высовывая язык между зубами и глядя в зеркало. Эти мультисенсорные подходы связывают физическое действие со звуком, облегчая детям понимание и повторение.`
   },
 ];
 

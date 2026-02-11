@@ -7,10 +7,10 @@ import { Footer } from '@/components/footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'SpeechAce - Your Partner in Speech Development',
+    default: 'SpeechAce - Ваш партнер в развитии речи',
     template: '%s | SpeechAce',
   },
-  description: 'A friendly resource hub for parents and specialists to find articles, tips, and exercises for speech therapy and child development.',
+  description: 'Дружелюбный ресурсный центр для родителей и специалистов, где можно найти статьи, советы и упражнения по логопедии и развитию ребенка.',
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="ru" suppressHydrationWarning>
       <body
         className={cn(
           'min-h-screen bg-background font-body antialiased',

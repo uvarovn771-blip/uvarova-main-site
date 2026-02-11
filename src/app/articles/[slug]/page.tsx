@@ -76,7 +76,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             {article.title}
           </h1>
           <p className="mt-4 text-muted-foreground">
-            By {article.author} on {formatDate(article.publishedAt)}
+            Автор: {article.author}, {formatDate(article.publishedAt)}
           </p>
         </header>
 

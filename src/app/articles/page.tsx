@@ -10,22 +10,22 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 export default function ArticlesPage() {
-  const [activeCategory, setActiveCategory] = useState<ArticleCategory | 'All'>('All');
+  const [activeCategory, setActiveCategory] = useState<ArticleCategory | 'Все'>('Все');
 
-  const filteredArticles = activeCategory === 'All'
+  const filteredArticles = activeCategory === 'Все'
     ? articles
     : articles.filter((article) => article.category === activeCategory);
 
-  const allCategories: (ArticleCategory | 'All')[] = ['All', ...categories];
+  const allCategories: (ArticleCategory | 'Все')[] = ['Все', ...categories];
 
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mb-12 flex flex-col items-center text-center">
         <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl">
-          Explore Our Knowledge Hub
+          Исследуйте нашу базу знаний
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Find insights, tips, and exercises to support every stage of speech development.
+          Найдите идеи, советы и упражнения для поддержки каждого этапа развития речи.
         </p>
       </div>
 

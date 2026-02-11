@@ -16,13 +16,13 @@ export default function Home() {
         <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2 lg:gap-16">
           <div className="flex flex-col items-start gap-4">
             <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-              Guiding Your Child's First Words
+              Направляем первые слова вашего ребенка
             </h1>
             <p className="text-lg text-muted-foreground">
-              Explore expert articles, practical exercises, and heartfelt advice to support your child's speech journey.
+              Изучите экспертные статьи, практические упражнения и душевные советы, чтобы поддержать речевое путешествие вашего ребенка.
             </p>
             <Button asChild size="lg" className="mt-4">
-              <Link href="/articles">Explore Articles</Link>
+              <Link href="/articles">Изучить статьи</Link>
             </Button>
           </div>
           <div className="relative h-64 w-full overflow-hidden rounded-2xl md:h-full">
@@ -43,10 +43,10 @@ export default function Home() {
       <section className="container mx-auto px-4">
         <div className="flex flex-col items-start gap-2">
           <h2 className="font-headline text-3xl font-bold tracking-tight">
-            Featured Articles
+            Избранные статьи
           </h2>
           <p className="max-w-xl text-muted-foreground">
-            Handpicked for you. Dive into our most popular reads on speech development and parenting.
+            Отобрано для вас. Погрузитесь в наши самые популярные статьи о развитии речи и воспитании детей.
           </p>
         </div>
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
