@@ -1,3 +1,4 @@
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import type { Metadata } from 'next';
@@ -7,16 +8,13 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { formatDate } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 
-type ArticlePageProps = {
-  params: {
-    slug: string;
-  };
-};
-
 export async function generateMetadata({
   params,
-}: ArticlePageProps): Promise<Metadata> {
-  const article = articles.find((a) => a.slug === params.slug);
+}: {
+  params: Promise<{ slug:string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
 
   if (!article) {
     return {};
@@ -34,8 +32,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const { slug } = params;
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const article = articles.find((a) => a.slug === slug);
 
   if (!article) {
@@ -58,7 +56,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
       name: 'SpeechAce',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://your-domain.com/logo.png', // Replace with your actual logo URL
+        url: 'https://your-domain.com/logo.png',
       },
     },
     datePublished: article.publishedAt,
@@ -107,3 +105,4 @@ export default function ArticlePage({ params }: ArticlePageProps) {
     </>
   );
 }
+    
