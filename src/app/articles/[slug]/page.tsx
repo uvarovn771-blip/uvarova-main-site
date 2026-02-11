@@ -36,7 +36,7 @@ export async function generateStaticParams() {
 export default async function ArticlePage({
   params,
 }: {
-  params: { slug: string };
+  params: { slug:string };
 }) {
   const { slug } = params;
   const article = articles.find((a) => a.slug === slug);
