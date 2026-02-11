@@ -2,7 +2,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import { MDXRemote } from 'next-mdx-remote/rsc';
+import { compileMDX } from 'next-mdx-remote/rsc';
 
 import { articles } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -44,6 +44,10 @@ export default async function ArticlePage({
   if (!article) {
     notFound();
   }
+
+  const { content: compiledContent } = await compileMDX({
+    source: article.content,
+  });
 
   const image = PlaceHolderImages.find((p) => p.id === article.image.id);
   const jsonLd = {
@@ -100,7 +104,7 @@ export default async function ArticlePage({
         )}
 
         <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
-          <MDXRemote source={article.content} />
+          {compiledContent}
         </div>
       </article>
     </>
