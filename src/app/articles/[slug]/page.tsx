@@ -7,13 +7,11 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { formatDate } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 
-type ArticlePageProps = {
-  params: {
-    slug: string;
-  };
-};
-
-export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
   const article = articles.find((a) => a.slug === params.slug);
 
   if (!article) {
