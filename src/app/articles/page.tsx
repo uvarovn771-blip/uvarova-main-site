@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 
 import { articles, categories } from '@/lib/data';
 import type { ArticleCategory } from '@/lib/types';
@@ -45,25 +44,13 @@ export default function ArticlesPage() {
         ))}
       </div>
 
-      <motion.div
-        layout
+      <div
         className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
       >
-        <AnimatePresence>
-          {filteredArticles.map((article) => (
-            <motion.div
-              key={article.slug}
-              layout
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
-            >
-              <ArticleCard article={article} />
-            </motion.div>
-          ))}
-        </AnimatePresence>
-      </motion.div>
+        {filteredArticles.map((article) => (
+          <ArticleCard key={article.slug} article={article} />
+        ))}
+      </div>
     </div>
   );
 }
