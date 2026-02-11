@@ -1,0 +1,106 @@
+import { notFound } from 'next/navigation';
+import Image from 'next/image';
+import type { Metadata } from 'next';
+
+import { articles } from '@/lib/data';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { formatDate } from '@/lib/utils';
+import { Badge } from '@/components/ui/badge';
+
+type ArticlePageProps = {
+  params: {
+    slug: string;
+  };
+};
+
+export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
+  const article = articles.find((a) => a.slug === params.slug);
+
+  if (!article) {
+    return {};
+  }
+
+  return {
+    title: article.title,
+    description: article.description,
+  };
+}
+
+export async function generateStaticParams() {
+  return articles.map((article) => ({
+    slug: article.slug,
+  }));
+}
+
+export default function ArticlePage({ params }: ArticlePageProps) {
+  const article = articles.find((a) => a.slug === params.slug);
+
+  if (!article) {
+    notFound();
+  }
+
+  const image = PlaceHolderImages.find((p) => p.id === article.image.id);
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.description,
+    image: image?.imageUrl || '',
+    author: {
+      '@type': 'Person',
+      name: article.author,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'SpeechAce',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://your-domain.com/logo.png', // Replace with your actual logo URL
+      },
+    },
+    datePublished: article.publishedAt,
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <article className="container mx-auto max-w-3xl px-4 py-12">
+        <header className="mb-8 flex flex-col items-center text-center">
+          <Badge variant="secondary" className="mb-4">
+            {article.category}
+          </Badge>
+          <h1 className="font-headline text-3xl font-extrabold leading-tight tracking-tighter md:text-5xl">
+            {article.title}
+          </h1>
+          <p className="mt-4 text-muted-foreground">
+            By {article.author} on {formatDate(article.publishedAt)}
+          </p>
+        </header>
+
+        {image && (
+          <div className="relative mb-8 h-64 w-full overflow-hidden rounded-2xl md:h-96">
+            <Image
+              src={image.imageUrl}
+              alt={article.title}
+              fill
+              className="object-cover"
+              priority
+              data-ai-hint={image.imageHint}
+            />
+          </div>
+        )}
+
+        <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
+          {article.content.split('\n\n').map((paragraph, index) => (
+            <p key={index} className="mb-6 text-lg leading-relaxed text-foreground">
+              {paragraph}
+            </p>
+          ))}
+        </div>
+      </article>
+    </>
+  );
+}
