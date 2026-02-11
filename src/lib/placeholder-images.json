@@ -101,6 +101,24 @@
       "description": "Ребенок делает артикуляционную гимнастику перед зеркалом.",
       "imageUrl": "https://images.unsplash.com/photo-1542755563-fb08a383b9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXJyb3IlMjBjaGlsZHxlbnwwfHx8fDE3NzA4OTM0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mirror child"
+    },
+    {
+      "id": "article-17",
+      "description": "Ребенок сидит за партой, готовый к школе.",
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHNjaG9vbCUyMGRlc2t8ZW58MHx8fHwxNzcwOTgzMjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child desk"
+    },
+    {
+      "id": "article-18",
+      "description": "Ребенок играет с игрушечным гусем, тренируя звуки.",
+      "imageUrl": "https://images.unsplash.com/photo-1598440947619-2c35fc931856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGdvb3NlfGVufDB8fHx8MTc3MDk4MzM1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child goose"
+    },
+    {
+      "id": "article-19",
+      "description": "Крупный план детского рта, показывающий правильную артикуляцию.",
+      "imageUrl": "https://images.unsplash.com/photo-1629812497653-a2095b5911b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHByb251bmNpYXRpb258ZW58MHx8fHwxNzcwOTgzNDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child pronunciation"
     }
   ]
 }
