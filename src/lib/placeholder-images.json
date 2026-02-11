@@ -137,6 +137,24 @@
       "description": "Ребенок четырех лет увлеченно играет с яркими развивающими игрушками.",
       "imageUrl": "https://images.unsplash.com/photo-1516642894-364761a64d42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHBsYXlpbmclMjBlZHVjYXRpb25hbCUyMHRveXN8ZW58MHx8fHwxNzcxMDcwNTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child playing"
+    },
+    {
+      "id": "article-23",
+      "description": "Ребенок составляет слова из деревянных букв-кубиков.",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGxlYXJuaW5nJTIwbGV0dGVyc3xlbnwwfHx8fDE3NzExNDYwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child letters"
+    },
+    {
+      "id": "article-24",
+      "description": "Годовалый малыш с любопытством играет с яркими развивающими кубиками.",
+      "imageUrl": "https://images.unsplash.com/photo-1618063644031-477d7a44a7f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZyUyMGJsb2Nrc3xlbnwwfHx8fDE3NzExNDYwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toddler blocks"
+    },
+    {
+      "id": "article-25",
+      "description": "Ребенок сосредоточенно выполняет упражнения для языка перед зеркалом.",
+      "imageUrl": "https://images.unsplash.com/photo-1589139049232-0545a706599b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjBleGVyY2lzZXN8ZW58MHx8fHwxNzcxMTQ2MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speech exercises"
     }
   ]
 }
