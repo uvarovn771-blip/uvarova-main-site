@@ -2,44 +2,44 @@
   "placeholderImages": [
     {
       "id": "hero-main",
-      "description": "A mother and child smiling and playing together.",
-      "imageUrl": "https://images.unsplash.com/photo-1531984929664-2fb2be468d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RoZXIlMjBjaGlsZHxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Мать и ребенок улыбаются и играют вместе.",
+      "imageUrl": "https://images.unsplash.com/photo-1504439158909-5a2f08876082?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RoZXIlMjBjaGlsZHxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mother child"
     },
     {
       "id": "article-1",
-      "description": "A child happily pointing at a picture book.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1551887373-6edba6dacbb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHJlYWRpbmd8ZW58MHx8fHwxNzcwODI1NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Ребенок радостно указывает на книжку с картинками.",
+      "imageUrl": "https://images.unsplash.com/photo-1532774682361-95f0831019d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZCUyMHJlYWRpbmd8ZW58MHx8fHwxNzcwODI1NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child reading"
     },
     {
       "id": "article-2",
-      "description": "Colorful alphabet blocks arranged on a wooden floor.",
+      "description": "Разноцветные кубики с буквами, расставленные на деревянном полу.",
       "imageUrl": "https://images.unsplash.com/photo-1683234804564-0c0850c05455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhbHBoYWJldCUyMGJsb2Nrc3xlbnwwfHx8fDE3NzA3NzMwMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "alphabet blocks"
     },
     {
       "id": "article-3",
-      "description": "A parent and child practicing sounds in front of a mirror.",
+      "description": "Родитель и ребенок тренируют звуки перед зеркалом.",
       "imageUrl": "https://images.unsplash.com/photo-1759456629070-8e222ab878ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcGVlY2glMjBwcmFjdGljZXxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "speech practice"
     },
     {
       "id": "article-4",
-      "description": "A therapist using flashcards with a young student.",
-      "imageUrl": "https://images.unsplash.com/photo-1758811201027-62eed15feeb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0aGVyYXBpc3QlMjBjaGlsZHxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Терапевт использует карточки с юным учеником.",
+      "imageUrl": "https://images.unsplash.com/photo-1695381834704-6bd3bb87644c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0aGVyYXBpc3QlMjBjaGlsZHxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "therapist child"
     },
     {
       "id": "article-5",
-      "description": "A collection of sensory toys for speech development.",
+      "description": "Коллекция сенсорных игрушек для развития речи.",
       "imageUrl": "https://images.unsplash.com/photo-1760704892974-60b5ddb59825?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZW5zb3J5JTIwdG95c3xlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sensory toys"
     },
     {
       "id": "article-6",
-      "description": "Close-up of a child's mouth, showing tongue placement for a sound.",
-      "imageUrl": "https://images.unsplash.com/photo-1749816220959-bae3740968ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGlsZCUyMG1vdXRofGVufDB8fHx8MTc3MDgzMzU2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Крупный план рта ребенка, показывающий положение языка для произнесения звука.",
+      "imageUrl": "https://images.unsplash.com/photo-1571999461967-f36a0294ba79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGQlMjBtb3V0aHxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child mouth"
     }
   ]
