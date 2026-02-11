@@ -12,9 +12,9 @@ import { Badge } from '@/components/ui/badge';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug } = params;
   const article = articles.find((a) => a.slug === slug);
 
   if (!article) {
@@ -36,9 +36,9 @@ export async function generateStaticParams() {
 export default async function ArticlePage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = await params;
+  const { slug } = params;
   const article = articles.find((a) => a.slug === slug);
 
   if (!article) {
