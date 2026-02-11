@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { compileMDX } from 'next-mdx-remote/rsc';
+import remarkGfm from 'remark-gfm';
 
 import { articles } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -47,6 +48,11 @@ export default async function ArticlePage({
 
   const { content: compiledContent } = await compileMDX({
     source: article.content,
+    options: {
+      mdxOptions: {
+        remarkPlugins: [remarkGfm],
+      },
+    },
   });
 
   const image = PlaceHolderImages.find((p) => p.id === article.image.id);
