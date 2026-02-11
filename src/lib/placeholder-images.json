@@ -119,6 +119,24 @@
       "description": "Крупный план детского рта, показывающий правильную артикуляцию.",
       "imageUrl": "https://images.unsplash.com/photo-1629812497653-a2095b5911b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHByb251bmNpYXRpb258ZW58MHx8fHwxNzcwOTgzNDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child pronunciation"
+    },
+    {
+      "id": "article-20",
+      "description": "Ребенок выдыхает пар на холодном воздухе, тренируя дыхание.",
+      "imageUrl": "https://images.unsplash.com/photo-1611293911539-de69ac28198f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGJyZWF0aGluZyUyMGNvbGR8ZW58MHx8fHwxNzcxMDcwNTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child breathing"
+    },
+    {
+      "id": "article-21",
+      "description": "Врач-невролог внимательно осматривает маленького ребенка.",
+      "imageUrl": "https://images.unsplash.com/photo-1580281657527-38f3f8b9e8cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBuZXVyb2xvZ2lzdCUyMGNoaWxkfGVufDB8fHx8MTc3MTA3MDU2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor neurologist"
+    },
+    {
+      "id": "article-22",
+      "description": "Ребенок четырех лет увлеченно играет с яркими развивающими игрушками.",
+      "imageUrl": "https://images.unsplash.com/photo-1516642894-364761a64d42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHBsYXlpbmclMjBlZHVjYXRpb25hbCUyMHRveXN8ZW58MHx8fHwxNzcxMDcwNTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child playing"
     }
   ]
 }
