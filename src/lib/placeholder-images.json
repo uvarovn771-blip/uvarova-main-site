@@ -41,6 +41,66 @@
       "description": "Крупный план рта ребенка, показывающий положение языка для произнесения звука.",
       "imageUrl": "https://images.unsplash.com/photo-1571999461967-f36a0294ba79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGQlMjBtb3V0aHxlbnwwfHx8fDE3NzA4MzM1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child mouth"
+    },
+    {
+      "id": "article-7",
+      "description": "Малыш задумчиво смотрит в окно, исследуя мир.",
+      "imageUrl": "https://images.unsplash.com/photo-1490124705663-39ba78026189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0b2RkbGVyJTIwbG9va2luZ3xlbnwwfHx8fDE3NzA4OTM0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toddler looking"
+    },
+    {
+      "id": "article-8",
+      "description": "Ребенок трех лет собирает пазл, концентрируясь на задаче.",
+      "imageUrl": "https://images.unsplash.com/photo-1586522379093-3b754025174a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHwzJTIweWVhciUyMG9sZCUyMGNoaWxkfGVufDB8fHx8MTc3MDg5MzQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child puzzle"
+    },
+    {
+      "id": "article-9",
+      "description": "Четырехлетний ребенок уверенно смотрит в камеру.",
+      "imageUrl": "https://images.unsplash.com/photo-1519083236744-9def3f59e219?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHw0JTIweWVhciUyMG9sZCUyMGNoaWxkfGVufDB8fHx8MTc3MDg5MzQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child portrait"
+    },
+    {
+      "id": "article-10",
+      "description": "Крупный план детского рта, пытающегося произнести звук 'Р'.",
+      "imageUrl": "https://images.unsplash.com/photo-1629812497653-a2095b5911b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsZXR0ZXIlMjByfGVufDB8fHx8MTc3MDg5MzQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "letter pronunciation"
+    },
+    {
+      "id": "article-11",
+      "description": "Ребенок практикует звук 'Ш' с логопедом.",
+      "imageUrl": "https://images.unsplash.com/photo-1618054049803-5aa38a9a4635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcGVlY2glMjB0aGVyYXB5fGVufDB8fHx8MTc3MDg5MzQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speech therapy"
+    },
+    {
+      "id": "article-12",
+      "description": "Силуэт ребенка с аутизмом, смотрящего на яркий, абстрактный мир.",
+      "imageUrl": "https://images.unsplash.com/photo-1608259798722-b6574582a8ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdXRpc20lMjBjb25jZXB0fGVufDB8fHx8MTc3MDg5MzQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "autism concept"
+    },
+    {
+      "id": "article-13",
+      "description": "Схема, иллюстрирующая разницу между ЗРР и ЗПРР.",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxi cmFpbiUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc3MDg5MzQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brain development"
+    },
+    {
+      "id": "article-14",
+      "description": "Мама заполняет чек-лист развития ребенка.",
+      "imageUrl": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGVja2xpc3R8ZW58MHx8fHwxNzcwODkzNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "checklist parent"
+    },
+    {
+      "id": "article-15",
+      "description": "Отец и сын играют в развивающие игры в машине.",
+      "imageUrl": "https://images.unsplash.com/photo-1621215423180-27a9c27b9c9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXRoZXIlMjBzb24lMjBjYXJ8ZW58MHx8fHwxNzcwODkzNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "father son"
+    },
+    {
+      "id": "article-16",
+      "description": "Ребенок делает артикуляционную гимнастику перед зеркалом.",
+      "imageUrl": "https://images.unsplash.com/photo-1542755563-fb08a383b9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXJyb3IlMjBjaGlsZHxlbnwwfHx8fDE3NzA4OTM0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mirror child"
     }
   ]
 }

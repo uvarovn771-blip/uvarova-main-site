@@ -99,11 +99,46 @@ export default async function ArticlePage({
         )}
 
         <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
-          {article.content.split('\n\n').map((paragraph, index) => (
-            <p key={index} className="mb-6 text-lg leading-relaxed text-foreground">
-              {paragraph}
-            </p>
-          ))}
+          {article.content.split('\n\n').map((block, index) => {
+            if (block.startsWith('### ')) {
+              return (
+                <h3
+                  key={index}
+                  className="font-headline text-xl font-bold mt-8 mb-4 tracking-tight md:text-2xl"
+                >
+                  {block.substring(4)}
+                </h3>
+              );
+            }
+            if (block.startsWith('## ')) {
+              return (
+                <h2
+                  key={index}
+                  className="font-headline text-2xl font-extrabold mt-12 mb-6 tracking-tighter md:text-3xl"
+                >
+                  {block.substring(3)}
+                </h2>
+              );
+            }
+            if (block.startsWith('- ')) {
+              const items = block.split('\n').map((item) => item.replace(/^- /, ''));
+              return (
+                <ul
+                  key={index}
+                  className="list-disc space-y-3 pl-6 mb-6 text-lg leading-relaxed text-foreground"
+                >
+                  {items.map((item, i) => (
+                    <li key={i} className="pl-2">{item}</li>
+                  ))}
+                </ul>
+              );
+            }
+            return (
+              <p key={index} className="mb-6 text-lg leading-relaxed text-foreground">
+                {block}
+              </p>
+            );
+          })}
         </div>
       </article>
     </>
