@@ -173,6 +173,24 @@
       "description": "Ребенок с трудом, но старательно концентрируется на выполнении домашнего задания.",
       "imageUrl": "https://images.unsplash.com/photo-1468546220842-28494951b6a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGZvY3VzaW5nfGVufDB8fHx8MTc3MTIxMjE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child focusing"
+    },
+    {
+      "id": "article-29",
+      "description": "Ребенок тренирует артикуляцию, чтобы правильно произносить звук Ц.",
+      "imageUrl": "https://images.unsplash.com/photo-1542755563-fb08a383b9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjBhcnRpY3VsYXRpb258ZW58MHx8fHwxNzcxMjgyMjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speech articulation"
+    },
+    {
+      "id": "article-30",
+      "description": "Мальчик играет с игрушечным паровозиком, имитируя звук 'ч-ч-ч'.",
+      "imageUrl": "https://images.unsplash.com/photo-1588696136539-d3527b7f32f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHRveSUyMHRyYWlufGVufDB8fHx8MTc3MTI4MjI0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child train"
+    },
+    {
+      "id": "article-31",
+      "description": "Ребенок держит щетку, готовясь чистить обувь и тренируя звук 'щ'.",
+      "imageUrl": "https://images.unsplash.com/photo-1596854372465-38140f24a132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGhvbGRpbmclMjBicnVzaHxlbnwwfHx8fDE3NzEyODIyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child holding"
     }
   ]
 }
