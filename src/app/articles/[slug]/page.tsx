@@ -9,6 +9,7 @@ import { articles } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { formatDate } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
+import { AdBanner } from '@/components/ad-banner';
 
 export async function generateMetadata({
   params,
@@ -102,6 +103,8 @@ export default async function ArticlePage({
             Автор: {article.author}, {formatDate(article.publishedAt)}
           </p>
         </header>
+
+        <AdBanner />
 
         {image && (
           <div className="relative mb-8 h-64 w-full overflow-hidden rounded-2xl md:h-96">

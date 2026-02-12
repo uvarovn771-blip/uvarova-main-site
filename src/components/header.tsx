@@ -13,25 +13,66 @@ import { Button } from '@/components/ui/button';
 import { Logo } from '@/components/logo';
 import { cn } from '@/lib/utils';
 
-const navLinks = [
+type NavLinkItem = {
+  href: string;
+  label: string;
+  external?: boolean;
+};
+
+const navLinks: NavLinkItem[] = [
   { href: '/', label: 'Главная' },
   { href: '/articles', label: 'Статьи' },
+  {
+    href: 'https://uvarovn771-blip.github.io/studio/',
+    label: 'Курс',
+    external: true,
+  },
+  {
+    href: 'https://apps.apple.com/app/id6751292289',
+    label: 'Приложение',
+    external: true,
+  },
+  { href: '/about', label: 'Об авторе' },
+  { href: '/contacts', label: 'Контакты' },
 ];
 
 export function Header() {
   const pathname = usePathname();
 
-  const NavLink = ({ href, label }: { href: string; label: string }) => {
+  const NavLink = ({ href, label, external }: NavLinkItem) => {
     const isActive =
-      href === '/' ? pathname === href : pathname.startsWith(href);
+      !external && (href === '/' ? pathname === href : pathname.startsWith(href));
+    const className = cn(
+      'text-sm font-medium transition-colors hover:text-primary',
+      isActive ? 'text-primary' : 'text-muted-foreground'
+    );
+
+    if (external) {
+      return (
+        <a href={href} className={className} target="_blank" rel="noopener noreferrer">
+          {label}
+        </a>
+      );
+    }
+
     return (
-      <Link
-        href={href}
-        className={cn(
-          'text-sm font-medium transition-colors hover:text-primary',
-          isActive ? 'text-primary' : 'text-muted-foreground'
-        )}
-      >
+      <Link href={href} className={className}>
+        {label}
+      </Link>
+    );
+  };
+
+  const MobileNavLink = ({ href, label, external }: NavLinkItem) => {
+    const className = "text-muted-foreground transition-colors hover:text-primary";
+    if (external) {
+      return (
+        <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+          {label}
+        </a>
+      );
+    }
+    return (
+      <Link href={href} className={className}>
         {label}
       </Link>
     );
@@ -72,13 +113,7 @@ export function Header() {
               </Link>
               <div className="flex flex-col space-y-4">
                 {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="text-muted-foreground transition-colors hover:text-primary"
-                  >
-                    {link.label}
-                  </Link>
+                  <MobileNavLink key={link.href} {...link} />
                 ))}
               </div>
             </SheetContent>
