@@ -36,13 +36,19 @@ function getArticlesData(): Article[] {
       } as Article;
     });
 
-  return allArticlesData.sort((a, b) => {
+  const sortedArticles = allArticlesData.sort((a, b) => {
     if (new Date(a.publishedAt) < new Date(b.publishedAt)) {
       return 1;
     } else {
       return -1;
     }
   });
+
+  const uniqueArticles = sortedArticles.filter((article, index, self) =>
+    index === self.findIndex((t) => t.title === article.title)
+  );
+
+  return uniqueArticles;
 }
 
 export const articles: Article[] = getArticlesData();
