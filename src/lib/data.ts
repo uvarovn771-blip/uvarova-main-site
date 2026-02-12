@@ -44,11 +44,7 @@ function getArticlesData(): Article[] {
     }
   });
 
-  const uniqueArticles = sortedArticles.filter((article, index, self) =>
-    index === self.findIndex((t) => t.title === article.title)
-  );
-
-  return uniqueArticles;
+  return sortedArticles;
 }
 
 export const articles: Article[] = getArticlesData();
