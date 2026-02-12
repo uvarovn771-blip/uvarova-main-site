@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Send, Instagram } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata: Metadata = {
@@ -26,13 +26,21 @@ export default function ContactsPage() {
         <CardContent className="space-y-4">
           <div className="flex items-center gap-4">
             <Mail className="h-6 w-6 text-primary" />
-            <a href="mailto:info@speechace.com" className="text-lg hover:underline">
-              info@speechace.com
+            <a href="mailto:uvarovn771@gmail.com" className="text-lg hover:underline">
+              uvarovn771@gmail.com
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <Phone className="h-6 w-6 text-primary" />
-            <span className="text-lg">+7 (999) 123-45-67</span>
+            <Send className="h-6 w-6 text-primary" />
+            <a href="https://t.me/uvarovaDefect" target="_blank" rel="noopener noreferrer" className="text-lg hover:underline">
+              Telegram
+            </a>
+          </div>
+          <div className="flex items-center gap-4">
+            <Instagram className="h-6 w-6 text-primary" />
+            <a href="https://www.instagram.com/defektologuvarova?igsh=NnJzaTd2OWdxNXdv" target="_blank" rel="noopener noreferrer" className="text-lg hover:underline">
+              Instagram
+            </a>
           </div>
         </CardContent>
       </Card>

@@ -12,11 +12,10 @@ export default function AboutPage() {
       <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-3">
         <div className="relative h-64 w-64 justify-self-center overflow-hidden rounded-full md:h-80 md:w-80">
           <Image
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MTI4OTgxNnww&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://raw.githubusercontent.com/uvarovn771-blip/uvarova-main-site/main/aboutUs.jpeg"
             alt="Портрет Натальи Уваровой"
             fill
             className="object-cover"
-            data-ai-hint="professional woman portrait"
           />
         </div>
         <div className="md:col-span-2">
