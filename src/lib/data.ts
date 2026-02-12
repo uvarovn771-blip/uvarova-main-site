@@ -36,7 +36,13 @@ function getArticlesData(): Article[] {
       } as Article;
     });
 
-  const sortedArticles = allArticlesData.sort((a, b) => {
+  // Фильтруем дубликаты по заголовку, оставляя только первое вхождение
+  const uniqueArticles = allArticlesData.filter(
+    (article, index, self) =>
+      index === self.findIndex((t) => t.title === article.title)
+  );
+
+  const sortedArticles = uniqueArticles.sort((a, b) => {
     if (new Date(a.publishedAt) < new Date(b.publishedAt)) {
       return 1;
     } else {
