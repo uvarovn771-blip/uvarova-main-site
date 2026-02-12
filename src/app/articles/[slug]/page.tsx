@@ -21,10 +21,17 @@ export async function generateMetadata({
   if (!article) {
     return {};
   }
+  
+  const image = PlaceHolderImages.find((p) => p.id === article.image.id);
 
   return {
     title: article.title,
     description: article.description,
+    openGraph: {
+      title: article.title,
+      description: article.description,
+      images: image ? [image.imageUrl] : [],
+    }
   };
 }
 
@@ -100,7 +107,7 @@ export default async function ArticlePage({
           <div className="relative mb-8 h-64 w-full overflow-hidden rounded-2xl md:h-96">
             <Image
               src={image.imageUrl}
-              alt={image.description}
+              alt={`${article.title} — ${image.description}`}
               fill
               className="object-cover"
               priority
