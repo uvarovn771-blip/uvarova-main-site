@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -21,7 +22,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
           <div className="relative h-48 w-full overflow-hidden">
             <Image
               src={image.imageUrl}
-              alt={article.title}
+              alt={image.description}
               fill
               className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

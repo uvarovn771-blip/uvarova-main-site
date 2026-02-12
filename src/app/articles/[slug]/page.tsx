@@ -100,7 +100,7 @@ export default async function ArticlePage({
           <div className="relative mb-8 h-64 w-full overflow-hidden rounded-2xl md:h-96">
             <Image
               src={image.imageUrl}
-              alt={article.title}
+              alt={image.description}
               fill
               className="object-cover"
               priority
