@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Об авторе',
   description: 'Узнайте больше о Наталье Уваровой, логопеде-дефектологе с 30-летним стажем и авторе уникальной методики по запуску речи.',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {

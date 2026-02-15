@@ -5,6 +5,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 export const metadata: Metadata = {
   title: 'Контакты',
   description: 'Свяжитесь с нами для получения дополнительной информации о курсах, консультациях или приложении.',
+  alternates: {
+    canonical: '/contacts',
+  },
 };
 
 export default function ContactsPage() {

@@ -32,7 +32,10 @@ export async function generateMetadata({
       title: article.title,
       description: article.description,
       images: image ? [image.imageUrl] : [],
-    }
+    },
+    alternates: {
+      canonical: `/articles/${slug}`,
+    },
   };
 }
 

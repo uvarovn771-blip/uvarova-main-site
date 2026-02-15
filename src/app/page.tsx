@@ -1,10 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 import { Button } from '@/components/ui/button';
 import { articles } from '@/lib/data';
 import { ArticleCard } from '@/components/article-card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
 
 export default function Home() {
   const featuredArticles = articles.slice(0, 3);
