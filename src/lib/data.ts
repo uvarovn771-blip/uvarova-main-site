@@ -36,25 +36,7 @@ function getArticlesData(): Article[] {
       } as Article;
     });
 
-  // Фильтруем дубликаты по заголовку, оставляя только первое вхождение
-  const uniqueArticles = allArticlesData.filter(
-    (article, index, self) =>
-      index === self.findIndex((t) => t.title === article.title)
-  );
-  
-  const startDate = new Date('2026-02-01').getTime();
-  const endDate = new Date('2026-02-16').getTime();
-
-  const articlesWithNewDates = uniqueArticles.map(article => {
-      const randomTimestamp = startDate + Math.random() * (endDate - startDate);
-      return {
-          ...article,
-          publishedAt: new Date(randomTimestamp).toISOString(),
-      }
-  });
-
-
-  const sortedArticles = articlesWithNewDates.sort((a, b) => {
+  const sortedArticles = allArticlesData.sort((a, b) => {
     if (new Date(a.publishedAt) < new Date(b.publishedAt)) {
       return 1;
     } else {
