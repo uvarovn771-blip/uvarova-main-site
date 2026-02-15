@@ -171,7 +171,7 @@
     {
       "id": "article-28",
       "description": "Ребенок с трудом, но старательно концентрируется на выполнении домашнего задания.",
-      "imageUrl": "https://images.unsplash.com/photo-1590007333407-1b004b66ef5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGlsZCUyMGZvY3VzaW5nfGVufDB8fHx8MTc3MDg1NDg3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590007333407-1b004b66ef5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGlsZCUyMGZvY3VzaW5nfGVufDB8fHx8MTc3MDg1NDg3NHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "child focusing"
     },
     {
@@ -237,74 +237,128 @@
     {
       "id": "article-39",
       "description": "Отец и сын вместе читают книгу, обсуждая картинки.",
-      "imageUrl": "https://images.unsplash.com/photo-1600880292215-356d2524a873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmd1YWdlJTIwc29ufGVufDB8fHx8MTc3MDk0NTAzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292215-356d2524a873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmd1YWdlJTIwc29ufGVufDB8fHx8MTc3MDk0NTAzOHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "language son"
     },
     {
       "id": "article-40",
       "description": "Задумчивый малыш смотрит на говорящих взрослых.",
-      "imageUrl": "https://images.unsplash.com/photo-1546484577-1b3c95a92d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwZ2liYmVyaXNofGVufDB8fHx8MTc3MDk0NTAzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546484577-1b3c95a92d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwZ2liYmVyaXNofGVufDB8fHx8MTc3MDk0NTAzOHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "toddler gibberish"
     },
     {
       "id": "article-41",
       "description": "Логопед занимается с ребенком, используя специальные карточки.",
-      "imageUrl": "https://images.unsplash.com/photo-1576765689492-7c7017902319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjBkZWxheXxlbnwwfHx8fDE3NzA5NDUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576765689492-7c7017902319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjBkZWxheXxlbnwwfHx8fDE3NzA5NDUwMzh8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "speech delay"
     },
     {
       "id": "article-42",
       "description": "Родители с беспокойством смотрят на своего молчаливого ребенка.",
-      "imageUrl": "https://images.unsplash.com/photo-1603833919213-7253594879a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnRzJTIwaGVscHxlbnwwfHx8fDE3NzA5NDUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1603833919213-7253594879a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnRzJTIwaGVscHxlbnwwfHx8fDE3NzA5NDUwMzh8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "parents help"
     },
     {
       "id": "article-43",
       "description": "Обеспокоенный родитель смотрит на ребенка, который играет в одиночестве.",
-      "imageUrl": "https://images.unsplash.com/photo-1599599810703-0b613c75e2b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b3JyaWVkJTIwcGFyZW50fGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599599810703-0b613c75e2b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b3JyaWVkJTIwcGFyZW50fGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "parent child"
     },
     {
       "id": "article-44",
       "description": "Малыш в возрасте 1.5 года увлеченно играет с игрушками, не обращая внимания на окружающих.",
-      "imageUrl": "https://images.unsplash.com/photo-1516627144476-50de00f50873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZyUyMGFsb25lfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1516627144476-50de00f50873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZyUyMGFsb25lfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "toddler playing"
     },
     {
       "id": "article-45",
       "description": "Ребенок выстраивает в ряд игрушечные машинки, что может быть признаком аутизма.",
-      "imageUrl": "https://images.unsplash.com/photo-1589932645169-a1b7a2027e1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGxpuaW5nJTIwdXAlMjB0b3lzfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1589932645169-a1b7a2027e1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGxpuaW5nJTIwdXAlMjB0b3lzfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "child toys"
     },
     {
       "id": "article-46",
       "description": "Врач-аудиолог проверяет слух маленького ребенка.",
-      "imageUrl": "https://images.unsplash.com/photo-1628325998188-7e3e7e3e3e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFyaW5nJTIwdGVzdCUyMGNoaWxkfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628325998188-7e3e7e3e3e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFyaW5nJTIwdGVzdCUyMGNoaWxkfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "doctor child"
     },
     {
       "id": "article-47",
       "description": "Счастливый младенец поворачивает голову на звук имени, произнесенного мамой.",
-      "imageUrl": "https://images.unsplash.com/photo-1479262981844-311b919597e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGJhYnklMjBsb29raW5nfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1479262981844-311b919597e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGJhYnklMjBsb29raW5nfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "happy baby"
     },
     {
       "id": "article-48",
       "description": "Мама пытается привлечь внимание своего ребенка, который смотрит в другую сторону.",
-      "imageUrl": "https://images.unsplash.com/photo-1618335829639-d326c4832c3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBhdHRlbnRpb258ZW58MHx8fHwxNzcwOTQ4OTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618335829639-d326c4832c3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBhdHRlbnRpb258ZW58MHx8fHwxNzcwOTQ4OTQ2fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "parent attention"
     },
     {
       "id": "article-49",
       "description": "Схематичное изображение детского мозга с выделенными зонами, отвечающими за слух и речь.",
-      "imageUrl": "https://images.unsplash.com/photo-1525351426399-3b6f4a5f4472?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFpbiUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc3MDk0ODk0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1525351426399-3b6f4a5f4472?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFpbiUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc3MDk0ODk0N3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "brain development"
     },
     {
       "id": "article-50",
       "description": "Заботливая мама обнимает своего ребенка, оказывая ему поддержку.",
-      "imageUrl": "https://images.unsplash.com/photo-1546870233-5d2aca5f396e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBodWd8ZW58MHx8fHwxNzcwOTQ4OTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546870233-5d2aca5f396e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBodWd8ZW58MHx8fHwxNzcwOTQ4OTQ3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "parent hug"
+    },
+    {
+      "id": "article-51",
+      "description": "Ребенок и родитель играют с яркими кубиками на полу, строя башню.",
+      "imageUrl": "https://images.unsplash.com/photo-1558647382-9ee4a2f243a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGdhbWV8ZW58MHx8fHwxNzcxMDM2MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child game"
+    },
+    {
+      "id": "article-52",
+      "description": "Крупный план детских рук, собирающих деревянный пазл с животными.",
+      "imageUrl": "https://images.unsplash.com/photo-1596439493132-985f95e54a93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGlsZCUyMGdhbWV8ZW58MHx8fHwxNzcxMDM2MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child puzzle"
+    },
+    {
+      "id": "article-53",
+      "description": "Малыш в полтора года с интересом смотрит на мыльные пузыри, которые выдувает мама.",
+      "imageUrl": "https://images.unsplash.com/photo-1579273187256-a3cbf3c3c72e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb3RoZXIlMjBzb24lMjBwbGF5aW5nfGVufDB8fHx8MTc3MTAzNjI1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mother playing"
+    },
+    {
+      "id": "article-54",
+      "description": "Логопед показывает ребенку карточку с картинкой для стимуляции речи.",
+      "imageUrl": "https://images.unsplash.com/photo-1576765689492-7c7017902319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjB0aGVyYXB5JTIwY2FyZHN8ZW58MHx8fHwxNzcxMDM2MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speech therapy"
+    },
+    {
+      "id": "article-55",
+      "description": "Отец и ребенок вместе читают яркую книгу с картинками на диване.",
+      "imageUrl": "https://images.unsplash.com/photo-1531592739345-53945d83a3b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYXJlbnQlMjBjaGlsZCUyMHJlYWRpbmd8ZW58MHx8fHwxNzcxMDM2MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parent reading"
+    },
+    {
+      "id": "article-56",
+      "description": "Ребенок играет с пальчиковыми красками, развивая мелкую моторику.",
+      "imageUrl": "https://images.unsplash.com/photo-1596702951741-b34938c1a275?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGZpbmdlciUyMHBhaW50aW5nfGVufDB8fHx8MTc3MTAzNjI1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child painting"
+    },
+    {
+      "id": "article-57",
+      "description": "Набор логопедических инструментов и игр, разложенных на столе.",
+      "imageUrl": "https://images.unsplash.com/photo-1620921443603-a129a1419736?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGVlY2glMjB0aGVyYXB5JTIwdG9vbHN8ZW58MHx8fHwxNzcxMDM2MjUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "therapy tools"
+    },
+    {
+      "id": "article-58",
+      "description": "Мама и неговорящий ребенок общаются с помощью жестов и мимики.",
+      "imageUrl": "https://images.unsplash.com/photo-1594947385012-32072a265633?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3RoZXIlMjB0ZWFjaGluZyUyMGNoaWxkfGVufDB8fHx8MTc3MTAzNjI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mother teaching"
+    },
+    {
+      "id": "article-59",
+      "description": "Простая игра-шнуровка для развития мелкой моторики и подготовки к речи.",
+      "imageUrl": "https://images.unsplash.com/photo-1633036402447-3a13a8518f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHRveXxlbnwwfHx8fDE3NzEwMzYyNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child toy"
     }
   ]
 }
