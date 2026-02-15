@@ -93,7 +93,7 @@
     {
       "id": "article-15",
       "description": "Отец и сын играют в развивающие игры в машине.",
-      "imageUrl": "https://images.unsplash.com/photo-1566997258389-42d9b103a187?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmF0aGVyJTIwc29ufGVufDB8fHx8MTc3MDg1NDg3NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1566997258389-42d9b103a187?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmF0aGVyJTIwc29ufGVufDB8fHx8MTc3MDg1NDg3NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "father son"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "article-23",
       "description": "Ребенок составляет слова из деревянных букв-кубиков.",
-      "imageUrl": "https://images.unsplash.com/photo-1563383238568-c91235c22c6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGQlMjBsZXR0ZXJzfGVufDB8fHx8MTc3MDg1NDg3NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563383238568-c91235c22c6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGQlMjBsZXR0ZXJzfGVufDB8fHx8MTc3MDg1NDg3NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child letters"
     },
     {
@@ -257,6 +257,54 @@
       "description": "Родители с беспокойством смотрят на своего молчаливого ребенка.",
       "imageUrl": "https://images.unsplash.com/photo-1603833919213-7253594879a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnRzJTIwaGVscHxlbnwwfHx8fDE3NzA5NDUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "parents help"
+    },
+    {
+      "id": "article-43",
+      "description": "Обеспокоенный родитель смотрит на ребенка, который играет в одиночестве.",
+      "imageUrl": "https://images.unsplash.com/photo-1599599810703-0b613c75e2b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b3JyaWVkJTIwcGFyZW50fGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parent child"
+    },
+    {
+      "id": "article-44",
+      "description": "Малыш в возрасте 1.5 года увлеченно играет с игрушками, не обращая внимания на окружающих.",
+      "imageUrl": "https://images.unsplash.com/photo-1516627144476-50de00f50873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZyUyMGFsb25lfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toddler playing"
+    },
+    {
+      "id": "article-45",
+      "description": "Ребенок выстраивает в ряд игрушечные машинки, что может быть признаком аутизма.",
+      "imageUrl": "https://images.unsplash.com/photo-1589932645169-a1b7a2027e1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGxpuaW5nJTIwdXAlMjB0b3lzfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child toys"
+    },
+    {
+      "id": "article-46",
+      "description": "Врач-аудиолог проверяет слух маленького ребенка.",
+      "imageUrl": "https://images.unsplash.com/photo-1628325998188-7e3e7e3e3e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFyaW5nJTIwdGVzdCUyMGNoaWxkfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor child"
+    },
+    {
+      "id": "article-47",
+      "description": "Счастливый младенец поворачивает голову на звук имени, произнесенного мамой.",
+      "imageUrl": "https://images.unsplash.com/photo-1479262981844-311b919597e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGJhYnklMjBsb29raW5nfGVufDB8fHx8MTc3MDk0ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy baby"
+    },
+    {
+      "id": "article-48",
+      "description": "Мама пытается привлечь внимание своего ребенка, который смотрит в другую сторону.",
+      "imageUrl": "https://images.unsplash.com/photo-1618335829639-d326c4832c3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBhdHRlbnRpb258ZW58MHx8fHwxNzcwOTQ4OTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parent attention"
+    },
+    {
+      "id": "article-49",
+      "description": "Схематичное изображение детского мозга с выделенными зонами, отвечающими за слух и речь.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351426399-3b6f4a5f4472?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFpbiUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc3MDk0ODk0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brain development"
+    },
+    {
+      "id": "article-50",
+      "description": "Заботливая мама обнимает своего ребенка, оказывая ему поддержку.",
+      "imageUrl": "https://images.unsplash.com/photo-1546870233-5d2aca5f396e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJlbnQlMjBodWd8ZW58MHx8fHwxNzcwOTQ4OTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parent hug"
     }
   ]
 }
