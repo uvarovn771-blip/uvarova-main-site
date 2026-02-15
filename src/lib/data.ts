@@ -42,8 +42,8 @@ function getArticlesData(): Article[] {
       index === self.findIndex((t) => t.title === article.title)
   );
   
-  const startDate = new Date('2026-01-05').getTime();
-  const endDate = new Date('2026-02-12').getTime();
+  const startDate = new Date('2026-02-01').getTime();
+  const endDate = new Date('2026-02-16').getTime();
 
   const articlesWithNewDates = uniqueArticles.map(article => {
       const randomTimestamp = startDate + Math.random() * (endDate - startDate);
