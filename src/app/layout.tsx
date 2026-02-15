@@ -47,6 +47,17 @@ export default function RootLayout({
             <img src="https://mc.yandex.ru/watch/106841467" style={{ position: 'absolute', left: '-9999px' }} alt="" />
           </div>
         </noscript>
+        
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-03YHP2D6D8" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03YHP2D6D8');
+          `}
+        </Script>
+
         <div className="relative flex min-h-dvh flex-col bg-background">
           <Header />
           <main className="flex-1">{children}</main>
