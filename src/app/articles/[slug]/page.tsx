@@ -82,7 +82,7 @@ export default async function ArticlePage({
       name: 'SpeechAce',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://your-domain.com/logo.png',
+        url: 'https://raw.githubusercontent.com/uvarovn771-blip/uvarova-main-site/main/aboutUs.jpeg',
       },
     },
     datePublished: article.publishedAt,
