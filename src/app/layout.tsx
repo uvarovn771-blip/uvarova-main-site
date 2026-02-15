@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     template: '%s | SpeechAce',
   },
   description: 'Дружелюбный ресурсный центр для родителей и специалистов, где можно найти статьи, советы и упражнения по логопедии и развитию ребенка.',
+  verification: {
+    google: 'OYhcuIwjw2loDrIkzwB88wUzPShyvOHkPssQxQM3I2E',
+  },
 };
 
 export default function RootLayout({
