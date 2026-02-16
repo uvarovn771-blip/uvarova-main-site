@@ -359,6 +359,96 @@
       "description": "Простая игра-шнуровка для развития мелкой моторики и подготовки к речи.",
       "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1080",
       "imageHint": "child toy"
+    },
+    {
+      "id": "article-60",
+      "description": "Малыш увлеченно играет с мелкими деталями, развивая концентрацию.",
+      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1080",
+      "imageHint": "toddler playing"
+    },
+    {
+      "id": "article-61",
+      "description": "Ребенок на прогулке в парке, исследует окружающую среду.",
+      "imageUrl": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?q=80&w=1080",
+      "imageHint": "child outdoor"
+    },
+    {
+      "id": "article-62",
+      "description": "Схема этапов развития когнитивных навыков у детей.",
+      "imageUrl": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1080",
+      "imageHint": "development chart"
+    },
+    {
+      "id": "article-63",
+      "description": "Ребенок внимательно рассматривает картинки в книге.",
+      "imageUrl": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=1080",
+      "imageHint": "child reading"
+    },
+    {
+      "id": "article-64",
+      "description": "Малыш взаимодействует с развивающей средой на свежем воздухе.",
+      "imageUrl": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?q=80&w=1080",
+      "imageHint": "child exploration"
+    },
+    {
+      "id": "article-65",
+      "description": "Графическое представление прогресса запуска речи.",
+      "imageUrl": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1080",
+      "imageHint": "speech progress"
+    },
+    {
+      "id": "article-66",
+      "description": "Развитие мелкой моторики через тактильные игры.",
+      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1080",
+      "imageHint": "motor skills"
+    },
+    {
+      "id": "article-67",
+      "description": "Ребенок указывает на интересные объекты в книге.",
+      "imageUrl": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=1080",
+      "imageHint": "pointing objects"
+    },
+    {
+      "id": "article-68",
+      "description": "Осенняя прогулка как способ пополнения словарного запаса.",
+      "imageUrl": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?q=80&w=1080",
+      "imageHint": "autumn walk"
+    },
+    {
+      "id": "article-69",
+      "description": "Инфографика: как мозг ребенка обрабатывает звуки.",
+      "imageUrl": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1080",
+      "imageHint": "brain processing"
+    },
+    {
+      "id": "article-70",
+      "description": "Самостоятельная игра ребенка с развивающими пособиями.",
+      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1080",
+      "imageHint": "independent play"
+    },
+    {
+      "id": "article-71",
+      "description": "Важность визуального контакта при чтении сказок.",
+      "imageUrl": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=1080",
+      "imageHint": "visual contact"
+    },
+    {
+      "id": "article-72",
+      "description": "Активные игры на природе для общего развития.",
+      "imageUrl": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?q=80&w=1080",
+      "imageHint": "active games"
+    },
+    {
+      "id": "article-73",
+      "description": "Аналитическая схема оценки речевых навыков.",
+      "imageUrl": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1080",
+      "imageHint": "speech assessment"
+    },
+    {
+      "id": "article-74",
+      "description": "Ребенок изучает текстуры и формы через игру.",
+      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1080",
+      "imageHint": "learning textures"
     }
   ]
 }
