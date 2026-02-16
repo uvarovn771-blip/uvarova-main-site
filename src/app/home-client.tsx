@@ -34,7 +34,7 @@ export default function HomeClient({ articles, heroImage }: HomeClientProps) {
             <p className="text-lg text-muted-foreground">
               Изучите экспертные статьи, практические упражнения и душевные советы, чтобы поддержать речевое путешествие вашего ребенка.
             </p>
-            <Button asChild className="mt-4 h-auto rounded-xl px-12 py-6 text-2xl font-bold md:px-16 md:py-8 md:text-3xl">
+            <Button asChild className="mt-4 h-auto rounded-xl px-8 py-4 text-lg font-bold md:px-10 md:py-5 md:text-xl">
               <Link href="/articles">Все статьи</Link>
             </Button>
           </div>
