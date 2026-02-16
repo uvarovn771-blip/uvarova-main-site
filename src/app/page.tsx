@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const featuredArticles = articles.slice(0, 3);
+  const featuredArticles = articles.slice(0, 15);
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-main');
 
   return (
@@ -29,7 +29,7 @@ export default function Home() {
               Изучите экспертные статьи, практические упражнения и душевные советы, чтобы поддержать речевое путешествие вашего ребенка.
             </p>
             <Button asChild size="lg" className="mt-4">
-              <Link href="/articles">Изучить статьи</Link>
+              <Link href="/articles">Все статьи</Link>
             </Button>
           </div>
           <div className="relative h-64 w-full overflow-hidden rounded-2xl md:h-full">
