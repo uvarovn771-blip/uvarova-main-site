@@ -70,7 +70,7 @@ export default function WhoSaysWhatGame() {
   };
   
   return (
-    <div className="container mx-auto flex h-full min-h-[calc(100vh-7rem)] flex-col px-4 py-8">
+    <div className="container mx-auto flex flex-col px-4 py-8">
       <audio ref={audioRef} preload="auto" />
       <header className="mb-8 flex items-center justify-between gap-4">
         <Button asChild variant="outline" className="flex-shrink-0">
@@ -91,11 +91,11 @@ export default function WhoSaysWhatGame() {
         </Button>
       </header>
 
-      <div key={key} className="grid flex-1 grid-cols-2 gap-4 md:grid-cols-3 md:gap-8">
+      <div key={key} className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-8">
         {animals.map((animal) => (
           <button key={animal.name} onClick={() => handleAnimalClick(animal)} className="group relative focus:outline-none">
             <Card className="h-full w-full overflow-hidden transition-transform duration-300 ease-in-out group-hover:scale-105 group-focus:ring-4 group-focus:ring-primary">
-              <CardContent className="relative h-full w-full p-0">
+              <CardContent className="relative aspect-[4/3] w-full p-0">
                 <Image
                   src={animal.imageUrl}
                   alt={animal.name}
