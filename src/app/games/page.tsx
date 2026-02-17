@@ -28,7 +28,7 @@ const gamesList: Game[] = [
     title: 'Кто как говорит?',
     description: 'Простая и веселая игра для самых маленьких. Учим звуки животных вместе!',
     href: '/games/who-says-what',
-    imageUrl: 'https://images.unsplash.com/photo-1570042225732-3adc135c58a1?q=80&w=1080&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1080',
     isActive: true,
   },
   {
