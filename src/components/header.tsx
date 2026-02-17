@@ -22,6 +22,7 @@ type NavLinkItem = {
 const navLinks: NavLinkItem[] = [
   { href: '/', label: 'Главная' },
   { href: '/articles', label: 'Статьи' },
+  { href: '/games', label: 'Игры' },
   {
     href: 'https://uvarovn771-blip.github.io/studio/',
     label: 'Курс',
