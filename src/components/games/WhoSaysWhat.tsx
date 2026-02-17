@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState, useRef } from 'react';
@@ -34,16 +33,19 @@ export default function WhoSaysWhatGame() {
     setActiveAnimal(animal);
     
     if (animal.soundUrl && audioRef.current) {
+        // Stop any currently playing sound before starting a new one
         if (!audioRef.current.paused) {
             audioRef.current.pause();
-            audioRef.current.currentTime = 0;
         }
         
         audioRef.current.src = animal.soundUrl;
+        audioRef.current.currentTime = 0;
+        audioRef.current.load(); // Explicitly tell the element to load the new source
         const playPromise = audioRef.current.play();
 
         if (playPromise !== undefined) {
             playPromise.catch(error => {
+                // This error can happen if the audio file path is incorrect or a browser autoplay policy is preventing it.
                 console.error("Audio playback failed:", error);
             });
         }
