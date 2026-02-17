@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -28,27 +28,40 @@ const animals: Animal[] = [
 export default function WhoSaysWhatGame() {
   const [activeAnimal, setActiveAnimal] = useState<Animal | null>(null);
   const [key, setKey] = useState(0);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const handleAnimalClick = (animal: Animal) => {
     setActiveAnimal(animal);
     
-    if (animal.soundUrl) {
-      try {
-        const audio = new Audio(animal.soundUrl);
-        audio.play();
-      } catch (error) {
-        console.error("Audio playback failed:", error);
-      }
+    if (animal.soundUrl && audioRef.current) {
+        if (!audioRef.current.paused) {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
+        }
+        
+        audioRef.current.src = animal.soundUrl;
+        const playPromise = audioRef.current.play();
+
+        if (playPromise !== undefined) {
+            playPromise.catch(error => {
+                console.error("Audio playback failed:", error);
+            });
+        }
     }
   };
 
   const handleReset = () => {
     setActiveAnimal(null);
     setKey(prevKey => prevKey + 1);
+    if(audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+    }
   };
   
   return (
     <div className="container mx-auto flex h-full min-h-[calc(100vh-7rem)] flex-col px-4 py-8">
+      <audio ref={audioRef} preload="auto" />
       <header className="mb-8 flex items-center justify-between gap-4">
         <Button asChild variant="outline" className="flex-shrink-0">
           <Link href="/games">
