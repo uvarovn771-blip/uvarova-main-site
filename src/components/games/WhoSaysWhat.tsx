@@ -17,12 +17,12 @@ type Animal = {
 };
 
 const animals: Animal[] = [
-  { name: 'Корова', sound: 'Му-у-у!', imageUrl: 'https://images.unsplash.com/photo-1570042225732-3adc135c58a1?q=80&w=1080', soundUrl: '/games/gameAnimalSounds/cow.mp3' },
+  { name: 'Корова', sound: 'Му-у-у!', imageUrl: 'https://images.unsplash.com/photo-1596733430284-f7437764b1a9?q=80&w=1000', soundUrl: '/games/gameAnimalSounds/cow.mp3' },
   { name: 'Собака', sound: 'Гав-гав!', imageUrl: 'https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?q=80&w=1080', soundUrl: '/games/gameAnimalSounds/dog.mp3' },
   { name: 'Кошка', sound: 'Мяу!', imageUrl: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1080', soundUrl: '/games/gameAnimalSounds/cat.mp3' },
-  { name: 'Утка', sound: 'Кря-кря!', imageUrl: 'https://images.unsplash.com/photo-1563209250-3d3a3a785253?q=80&w=1080', soundUrl: '/games/gameAnimalSounds/duck.mp3' },
-  { name: 'Овца', sound: 'Бе-е-е!', imageUrl: 'https://images.unsplash.com/photo-1511117997523-4a39155357c2?q=80&w=1080', soundUrl: '/games/gameAnimalSounds/sheep.mp3' },
-  { name: 'Свинья', sound: 'Хрю-хрю!', imageUrl: 'https://images.unsplash.com/photo-1516467225658-6ce9d2d16ba0?q=80&w=1080', soundUrl: '/games/gameAnimalSounds/pig.mp3' },
+  { name: 'Утка', sound: 'Кря-кря!', imageUrl: 'https://images.unsplash.com/photo-1459682687441-7761439a709d?q=80&w=1000', soundUrl: '/games/gameAnimalSounds/duck.mp3' },
+  { name: 'Овца', sound: 'Бе-е-е!', imageUrl: 'https://images.unsplash.com/photo-1484557985045-edf25e08da73?q=80&w=1000', soundUrl: '/games/gameAnimalSounds/sheep.mp3' },
+  { name: 'Свинья', sound: 'Хрю-хрю!', imageUrl: 'https://images.unsplash.com/photo-1516467508483-a7212febe31a?q=80&w=1000', soundUrl: '/games/gameAnimalSounds/pig.mp3' },
 ];
 
 export default function WhoSaysWhatGame() {
