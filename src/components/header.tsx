@@ -7,6 +7,9 @@ import { Menu } from 'lucide-react';
 import {
   Sheet,
   SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
@@ -105,6 +108,12 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
+              <SheetHeader className="sr-only">
+                <SheetTitle>Меню</SheetTitle>
+                <SheetDescription>
+                  Основная навигация по сайту SpeechAce.
+                </SheetDescription>
+              </SheetHeader>
               <Link
                 href="/"
                 className="mb-8 flex items-center"
