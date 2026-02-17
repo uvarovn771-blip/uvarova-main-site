@@ -4,12 +4,15 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import { compileMDX } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
+import Link from 'next/link';
 
 import { articles } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { formatDate } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { AdBanner } from '@/components/ad-banner';
+import { Button } from '@/components/ui/button';
+import { ArrowLeft, PlayCircle } from 'lucide-react';
 
 export async function generateMetadata({
   params,
@@ -126,6 +129,25 @@ export default async function ArticlePage({
           {compiledContent}
         </div>
       </article>
+      <div className="container mx-auto max-w-3xl px-4 pb-12">
+        <div className="mt-12 border-t pt-8 text-center">
+          <h3 className="mb-4 text-xl font-bold">Что дальше?</h3>
+          <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+            <Button asChild variant="outline" size="lg">
+              <Link href="/articles">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                К списку статей
+              </Link>
+            </Button>
+            <Button asChild size="lg">
+              <Link href="/games">
+                <PlayCircle className="mr-2 h-4 w-4" />
+                К развивающим играм
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

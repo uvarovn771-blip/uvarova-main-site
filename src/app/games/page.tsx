@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Button, buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { PlayCircle } from 'lucide-react';
 
@@ -74,44 +74,56 @@ export default function GamesPage() {
       </div>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {gamesList.map((game) => (
-          <Card key={game.title} className={cn('flex h-full flex-col overflow-hidden', !game.isActive && 'relative')}>
-            {
-              !game.isActive && (
-                <div className="absolute inset-0 z-10 flex items-center justify-center rounded-lg bg-background/80 backdrop-blur-sm">
-                  <span className="text-xl font-bold text-foreground">Скоро будет</span>
+        {gamesList.map((game) =>
+          game.isActive ? (
+            <Link key={game.title} href={game.href} className="group block h-full">
+              <Card className="flex h-full flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl">
+                <div className="relative h-48 w-full">
+                  <Image
+                    src={game.imageUrl}
+                    alt={game.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
                 </div>
-              )
-            }
-            <div className="relative h-48 w-full">
-              <Image
-                src={game.imageUrl}
-                alt={game.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader>
-              <CardTitle>{game.title}</CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-1 flex-col justify-between">
-              <p className="text-sm text-muted-foreground">{game.description}</p>
-              <Button asChild disabled={!game.isActive} className="mt-4 w-full">
-                {game.isActive ? (
-                  <Link href={game.href}>
+                <CardHeader>
+                  <CardTitle>{game.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="flex flex-1 flex-col justify-between">
+                  <p className="text-sm text-muted-foreground">{game.description}</p>
+                  <div className={cn(buttonVariants(), 'mt-4 w-full')}>
                     <PlayCircle className="mr-2 h-4 w-4" />
                     Играть
-                  </Link>
-                ) : (
-                  <span>
-                    <PlayCircle className="mr-2 h-4 w-4" />
-                    Играть
-                  </span>
-                )}
-              </Button>
-            </CardContent>
-          </Card>
-        ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
+          ) : (
+            <Card key={game.title} className={cn('relative flex h-full flex-col overflow-hidden')}>
+              <div className="absolute inset-0 z-10 flex items-center justify-center rounded-lg bg-background/80 backdrop-blur-sm">
+                <span className="text-xl font-bold text-foreground">Скоро будет</span>
+              </div>
+              <div className="relative h-48 w-full">
+                <Image
+                  src={game.imageUrl}
+                  alt={game.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle>{game.title}</CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-1 flex-col justify-between">
+                <p className="text-sm text-muted-foreground">{game.description}</p>
+                <Button disabled className="mt-4 w-full">
+                  <PlayCircle className="mr-2 h-4 w-4" />
+                  Играть
+                </Button>
+              </CardContent>
+            </Card>
+          )
+        )}
       </div>
     </div>
   );

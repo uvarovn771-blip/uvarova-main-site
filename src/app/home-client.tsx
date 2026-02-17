@@ -34,9 +34,14 @@ export default function HomeClient({ articles, heroImage }: HomeClientProps) {
             <p className="text-lg text-muted-foreground">
               Изучите экспертные статьи, практические упражнения и душевные советы, чтобы поддержать речевое путешествие вашего ребенка.
             </p>
-            <Button asChild className="mt-4 h-auto rounded-xl px-8 py-4 text-lg font-bold md:px-10 md:py-5 md:text-xl">
-              <Link href="/articles">Все статьи</Link>
-            </Button>
+            <div className="mt-4 flex flex-wrap gap-4">
+              <Button asChild className="h-auto rounded-xl px-8 py-4 text-lg font-bold md:px-10 md:py-5 md:text-xl">
+                <Link href="/articles">Все статьи</Link>
+              </Button>
+              <Button asChild variant="secondary" className="h-auto rounded-xl px-8 py-4 text-lg font-bold md:px-10 md:py-5 md:text-xl">
+                <Link href="/games">Онлайн игры</Link>
+              </Button>
+            </div>
           </div>
           <div className="relative h-64 w-full overflow-hidden rounded-2xl md:h-full">
             {heroImage && (

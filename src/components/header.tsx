@@ -1,8 +1,10 @@
+
 'use client';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu } from 'lucide-react';
+import { useState } from 'react';
 
 import {
   Sheet,
@@ -42,6 +44,7 @@ const navLinks: NavLinkItem[] = [
 
 export function Header() {
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const NavLink = ({ href, label, external }: NavLinkItem) => {
     const isActive =
@@ -68,15 +71,19 @@ export function Header() {
 
   const MobileNavLink = ({ href, label, external }: NavLinkItem) => {
     const className = "text-muted-foreground transition-colors hover:text-primary";
+    const handleClick = () => {
+      setIsMobileMenuOpen(false);
+    };
+
     if (external) {
       return (
-        <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+        <a href={href} target="_blank" rel="noopener noreferrer" className={className} onClick={handleClick}>
           {label}
         </a>
       );
     }
     return (
-      <Link href={href} className={className}>
+      <Link href={href} className={className} onClick={handleClick}>
         {label}
       </Link>
     );
@@ -97,7 +104,7 @@ export function Header() {
         </div>
 
         <div className="flex flex-1 items-center justify-end">
-          <Sheet>
+          <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
               <Button
                 variant="ghost"
@@ -118,6 +125,7 @@ export function Header() {
                 href="/"
                 className="mb-8 flex items-center"
                 aria-label="Главная"
+                onClick={() => setIsMobileMenuOpen(false)}
               >
                 <Logo />
               </Link>
