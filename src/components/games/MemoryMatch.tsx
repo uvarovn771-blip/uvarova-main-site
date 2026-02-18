@@ -22,7 +22,7 @@ const levelConfig = [
   { level: 2, pairs: 3, grid: 'grid-cols-3 grid-rows-2' },
   { level: 3, pairs: 6, grid: 'grid-cols-4 grid-rows-3' },
   { level: 4, pairs: 8, grid: 'grid-cols-4 grid-rows-4' },
-  { level: 5, pairs: 10, grid: 'grid-cols-5 grid-rows-4' },
+  { level: 5, pairs: 10, grid: 'grid-cols-5 grid-rows-4' }
 ];
 
 const shuffleArray = (array: any[]) => {
@@ -131,7 +131,7 @@ export default function MemoryMatchGame() {
     if (level < levelConfig.length) {
       setLevel(l => l + 1);
     } else {
-      setLevel(1);
+      setupLevel(level); 
     }
     setIsGameWon(false);
   };
