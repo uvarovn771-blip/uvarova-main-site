@@ -119,7 +119,7 @@ export default function MemoryMatchGame() {
           // Если прошли всё, просто мешаем заново на макс уровне
           setupLevel(level);
         }
-      }, 3000); // 3 секунды любуемся конфетти и переходим
+      }, 1000); // 3 секунды любуемся конфетти и переходим
 
       return () => clearTimeout(timer);
     }
