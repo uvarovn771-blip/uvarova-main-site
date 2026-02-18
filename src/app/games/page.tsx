@@ -41,9 +41,9 @@ const gamesList: Game[] = [
   {
     title: 'Найди пару',
     description: 'Тренируем память и внимание, находя одинаковые картинки.',
-    href: '#',
+    href: '/games/memory-match',
     imageUrl: 'https://images.unsplash.com/photo-1599666520205-7ef9d1b85ab9?q=80&w=1080&auto=format&fit=crop',
-    isActive: false,
+    isActive: true,
   },
   {
     title: 'Собери историю',
