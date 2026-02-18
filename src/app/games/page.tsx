@@ -32,11 +32,11 @@ const gamesList: Game[] = [
     isActive: true,
   },
   {
-    title: 'Волшебные слоги',
-    description: 'Учимся соединять буквы в слоги и читать первые слова.',
-    href: '#',
-    imageUrl: 'https://images.unsplash.com/photo-1543169096-6a56e20f4d1b?q=80&w=1080&auto=format&fit=crop',
-    isActive: false,
+    title: 'Найди лишнее',
+    description: 'Развиваем логику и внимание, находя предмет, который не подходит к остальным.',
+    href: '/games/find-the-odd-one',
+    imageUrl: 'https://images.pexels.com/photos/3661202/pexels-photo-3661202.jpeg?auto=compress&cs=tinysrgb&w=600',
+    isActive: true,
   },
   {
     title: 'Найди пару',
