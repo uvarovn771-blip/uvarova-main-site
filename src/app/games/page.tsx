@@ -48,9 +48,9 @@ const gamesList: Game[] = [
   {
     title: 'Собери историю',
     description: 'Учимся строить последовательности и рассказывать истории по картинкам.',
-    href: '#',
+    href: '/games/make-story',
     imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1080&auto=format&fit=crop',
-    isActive: false,
+    isActive: true,
   },
 ];
 
