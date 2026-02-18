@@ -47,6 +47,7 @@ export default function MemoryMatchGame() {
 
   const setupLevel = (currentLevel: number) => {
     setIsGameWon(false);
+    setFlippedCards([]);
     const config = levelConfig.find(l => l.level === currentLevel) || levelConfig[0];
     
     const shuffledAssets = shuffleArray([...memoryImageAssets]);
@@ -74,15 +75,17 @@ export default function MemoryMatchGame() {
       const [firstIndex, secondIndex] = flippedCards;
       if (cards[firstIndex].image === cards[secondIndex].image) {
         playSound('success');
-        setCards(prev =>
-          prev.map(card =>
-            card.id === firstIndex || card.id === secondIndex
-              ? { ...card, isMatched: true }
-              : card
-          )
-        );
-        setFlippedCards([]);
-        setIsChecking(false);
+        setTimeout(() => {
+            setCards(prev =>
+              prev.map(card =>
+                card.id === firstIndex || card.id === secondIndex
+                  ? { ...card, isMatched: true }
+                  : card
+              )
+            );
+            setFlippedCards([]);
+            setIsChecking(false);
+        }, 200);
       } else {
         playSound('error');
         setIncorrectShake([...flippedCards]);
@@ -115,12 +118,13 @@ export default function MemoryMatchGame() {
     if (isChecking || flippedCards.includes(index) || cards[index].isMatched) {
       return;
     }
+    
+    setFlippedCards(prev => [...prev, index]);
     setCards(prev =>
       prev.map(card =>
         card.id === index ? { ...card, isFlipped: true } : card
       )
     );
-    setFlippedCards(prev => [...prev, index]);
   };
   
   const handleNextLevel = () => {
@@ -183,13 +187,13 @@ export default function MemoryMatchGame() {
                 key={card.id} 
                 className={cn(
                   "card perspective group cursor-pointer aspect-square",
-                  {'flipped': card.isFlipped || card.isMatched}
+                  {'flipped': card.isFlipped || card.isMatched},
+                  incorrectShake.includes(card.id) && "animate-shake"
                 )}
                 onClick={() => handleCardClick(card.id)}
               >
                 <div className={cn(
                   "card-inner",
-                  incorrectShake.includes(card.id) && "animate-shake",
                   card.isMatched && "scale-95 opacity-50 transition-all"
                 )}>
                   <div className="card-front overflow-hidden rounded-lg border-2 border-primary/20 shadow-md transition-all group-hover:border-primary">
