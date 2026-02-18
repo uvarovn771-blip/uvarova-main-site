@@ -85,7 +85,7 @@ export default function MemoryMatchGame() {
             );
             setFlippedCards([]);
             setIsChecking(false);
-        }, 200);
+        }, 1000);
       } else {
         playSound('error');
         setIncorrectShake([...flippedCards]);
@@ -194,7 +194,7 @@ export default function MemoryMatchGame() {
               >
                 <div className={cn(
                   "card-inner",
-                  card.isMatched && "scale-95 opacity-50 transition-all"
+                  card.isMatched && "opacity-0 scale-75 transition-all duration-500 pointer-events-none"
                 )}>
                   <div className="card-front overflow-hidden rounded-lg border-2 border-primary/20 shadow-md transition-all group-hover:border-primary">
                     <Image src={cardBackImage} alt="Card back" fill className="object-cover" priority sizes="25vw"/>
