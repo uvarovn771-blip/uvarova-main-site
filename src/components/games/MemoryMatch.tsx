@@ -182,7 +182,7 @@ export default function MemoryMatchGame() {
               <div 
                 key={card.id} 
                 className={cn(
-                  "card perspective group cursor-pointer", 
+                  "card perspective group cursor-pointer aspect-square",
                   {'flipped': card.isFlipped || card.isMatched}
                 )}
                 onClick={() => handleCardClick(card.id)}
