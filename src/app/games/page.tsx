@@ -35,7 +35,7 @@ const gamesList: Game[] = [
     title: 'Найди лишнее',
     description: 'Развиваем логику и внимание, находя предмет, который не подходит к остальным.',
     href: '/games/find-the-odd-one',
-    imageUrl: 'https://images.pexels.com/photos/3661202/pexels-photo-3661202.jpeg?auto=compress&cs=tinysrgb&w=600',
+    imageUrl: '/FindExtraGame/oddImageCard.jpg',
     isActive: true,
   },
   {
@@ -43,13 +43,6 @@ const gamesList: Game[] = [
     description: 'Тренируем память и внимание, находя одинаковые картинки.',
     href: '#',
     imageUrl: 'https://images.unsplash.com/photo-1599666520205-7ef9d1b85ab9?q=80&w=1080&auto=format&fit=crop',
-    isActive: false,
-  },
-  {
-    title: 'Что лишнее?',
-    description: 'Развиваем логическое мышление, исключая предмет не из той группы.',
-    href: '#',
-    imageUrl: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1080&auto=format&fit=crop',
     isActive: false,
   },
   {
