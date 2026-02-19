@@ -36,7 +36,14 @@ export default function MakeStoryGame() {
   const [isGameWon, setIsGameWon] = useState(false);
   const [incorrectDropId, setIncorrectDropId] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const sensors = useSensors(useSensor(PointerSensor));
+  const sensors = useSensors(
+    useSensor(PointerSensor, {
+      activationConstraint: {
+        delay: 200,      // Нужно подержать палец 200мс, чтобы начался драг
+        tolerance: 10,   // Если палец дрожит в пределах 10px, драг не прервется
+      },
+    })
+  );
 
   const playSound = (sound: 'start' | 'success' | 'error' | 'win') => {
     if (audioRef.current) {
@@ -230,6 +237,7 @@ function StoryCard({ card, isDragging, className }: { card: StoryStep, isDraggin
     <Card
       className={cn(
         "relative aspect-square w-full overflow-hidden shadow-md transition-shadow hover:shadow-xl",
+        "touch-none", // <--- ДОБАВЬ ВОТ ЭТУ СТРОЧКУ
         isDragging ? "cursor-grabbing" : "cursor-grab",
         className,
       )}
