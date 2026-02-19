@@ -39,8 +39,7 @@ export default function MakeStoryGame() {
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        delay: 200,      // Нужно подержать палец 200мс, чтобы начался драг
-        tolerance: 10,   // Если палец дрожит в пределах 10px, драг не прервется
+        distance: 5
       },
     })
   );
@@ -153,30 +152,30 @@ export default function MakeStoryGame() {
           </Button>
         </header>
 
-        <main className="flex flex-1 flex-col items-center justify-center gap-8 py-8 md:gap-16">
-          {/* Target Slots */}
-          <div className="grid w-full max-w-5xl grid-cols-2 gap-4 md:grid-cols-4">
-            {targetSlots.map((card, index) => (
-              <DroppableSlot key={`slot-${index}`} id={`slot-${index}`} index={index}>
-                {card ? <StaticCard card={card} /> : null}
-              </DroppableSlot>
-            ))}
-          </div>
+        <main className="flex flex-1 flex-col items-center justify-center gap-6 py-4">
+  {/* Верхние слоты — всегда 4 в ряд */}
+  <div className="grid w-full max-w-5xl grid-cols-4 gap-2">
+    {targetSlots.map((card, index) => (
+      <DroppableSlot key={`slot-${index}`} id={`slot-${index}`} index={index}>
+        {card ? <StaticCard card={card} /> : null}
+      </DroppableSlot>
+    ))}
+  </div>
 
-          {/* Source Cards */}
-          <div className="grid w-full max-w-5xl grid-cols-2 gap-4 md:grid-cols-4">
-            <SortableContext items={sourceItems} strategy={rectSortingStrategy}>
-              {sourceItems.map(item => (
-                <SortableCard
-                  key={item.id}
-                  id={item.id}
-                  card={item}
-                  isIncorrect={incorrectDropId === item.id}
-                />
-              ))}
-            </SortableContext>
-          </div>
-        </main>
+  {/* Нижние карточки — всегда 4 в ряд */}
+  <div className="grid w-full max-w-5xl grid-cols-4 gap-2">
+    <SortableContext items={sourceItems} strategy={rectSortingStrategy}>
+      {sourceItems.map(item => (
+        <SortableCard
+          key={item.id}
+          id={item.id}
+          card={item}
+          isIncorrect={incorrectDropId === item.id}
+        />
+      ))}
+    </SortableContext>
+  </div>
+</main>
       </div>
 
       <DragOverlay>
