@@ -10,10 +10,12 @@ import {
   PointerSensor,
   useSensor,
   useSensors,
+  useDroppable,
+  closestCenter,
   type DragStartEvent,
   type DragEndEvent,
 } from '@dnd-kit/core';
-import { SortableContext, useSortable, arrayMove, rectSortingStrategy } from '@dnd-kit/sortable';
+import { SortableContext, useSortable, rectSortingStrategy } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 
 import { storyLevels } from '@/lib/make-story-assets';
@@ -60,16 +62,18 @@ export default function MakeStoryGame() {
 
   useEffect(() => {
     startNewRound();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    if (targetSlots.every(slot => slot !== null)) {
+    if (targetSlots.length > 0 && targetSlots.every(slot => slot !== null)) {
       setIsGameWon(true);
       playSound('win');
       setTimeout(() => {
         startNewRound();
       }, 4000);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [targetSlots]);
 
   const handleDragStart = (event: DragStartEvent) => {
@@ -80,13 +84,21 @@ export default function MakeStoryGame() {
     const { active, over } = event;
     setActiveId(null);
   
-    if (over && active.id !== over.id) {
-      const activeCard = level.steps.find(s => s.id === active.id);
-      const overId = over.id as string;
+    if (!over) {
+      return;
+    }
+  
+    const activeCard = sourceItems.find(s => s.id === active.id);
+    if (!activeCard) {
+      return;
+    }
+
+    const overId = over.id as string;
+    
+    if (overId.startsWith('slot-')) {
       const slotIndex = parseInt(overId.replace('slot-', ''), 10);
       
-      // Check if dropped on a slot and if the order is correct
-      if (overId.startsWith('slot-') && activeCard?.order === slotIndex + 1 && !targetSlots[slotIndex]) {
+      if (activeCard.order === slotIndex + 1 && !targetSlots[slotIndex]) {
         setTargetSlots(prev => {
           const newSlots = [...prev];
           newSlots[slotIndex] = activeCard;
@@ -99,13 +111,18 @@ export default function MakeStoryGame() {
         playSound('error');
         setTimeout(() => setIncorrectDropId(null), 500);
       }
+    } else {
+      // If not dropped on a slot, indicate error
+      setIncorrectDropId(active.id as string);
+      playSound('error');
+      setTimeout(() => setIncorrectDropId(null), 500);
     }
   };
 
   const activeCard = activeId ? level.steps.find(s => s.id === activeId) : null;
 
   return (
-    <DndContext sensors={sensors} onDragStart={handleDragStart} onDragEnd={handleDragEnd} collisionDetection={null}>
+    <DndContext sensors={sensors} onDragStart={handleDragStart} onDragEnd={handleDragEnd} collisionDetection={closestCenter}>
       <div className="container mx-auto flex min-h-dvh flex-col px-4 py-8">
         <Confetti active={isGameWon} />
         <audio ref={audioRef} preload="auto" />
@@ -164,7 +181,7 @@ export default function MakeStoryGame() {
 
 // Components for DND
 function DroppableSlot({ id, index, children }: { id: string, index: number, children: React.ReactNode }) {
-  const { setNodeRef, isOver } = useSortable({id});
+  const { setNodeRef, isOver } = useDroppable({id});
 
   return (
     <div
