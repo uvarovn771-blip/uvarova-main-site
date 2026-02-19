@@ -71,7 +71,7 @@ export default function MakeStoryGame() {
       playSound('win');
       setTimeout(() => {
         startNewRound();
-      }, 4000);
+      }, 1000);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [targetSlots]);
@@ -187,7 +187,7 @@ function DroppableSlot({ id, index, children }: { id: string, index: number, chi
     <div
       ref={setNodeRef}
       className={cn(
-        "relative flex aspect-video items-center justify-center rounded-2xl border-2 border-dashed border-muted-foreground/50 bg-muted/40 transition-colors",
+        "relative flex aspect-square items-center justify-center rounded-2xl border-2 border-dashed border-muted-foreground/50 bg-muted/40 transition-colors",
         isOver && "border-primary bg-primary/10"
       )}
     >
@@ -229,7 +229,7 @@ function StoryCard({ card, isDragging, className }: { card: StoryStep, isDraggin
   return (
     <Card
       className={cn(
-        "relative aspect-video w-full overflow-hidden shadow-md transition-shadow hover:shadow-xl",
+        "relative aspect-square w-full overflow-hidden shadow-md transition-shadow hover:shadow-xl",
         isDragging ? "cursor-grabbing" : "cursor-grab",
         className,
       )}

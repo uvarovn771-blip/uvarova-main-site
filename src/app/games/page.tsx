@@ -42,14 +42,14 @@ const gamesList: Game[] = [
     title: 'Найди пару',
     description: 'Тренируем память и внимание, находя одинаковые картинки.',
     href: '/games/memory-match',
-    imageUrl: 'https://images.unsplash.com/photo-1599666520205-7ef9d1b85ab9?q=80&w=1080&auto=format&fit=crop',
+    imageUrl: '/FindExtraGame/CardMatchMain.jpg',
     isActive: true,
   },
   {
     title: 'Собери историю',
     description: 'Учимся строить последовательности и рассказывать истории по картинкам.',
     href: '/games/make-story',
-    imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1080&auto=format&fit=crop',
+    imageUrl: '/FindExtraGame/MakeStoryMain.jpg',
     isActive: true,
   },
 ];
