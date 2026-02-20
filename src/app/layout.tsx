@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   verification: {
     google: 'OYhcuIwjw2loDrIkzwB88wUzPShyvOHkPssQxQM3I2E',
   },
+  icons: {
+    icon: {
+      url: '/icon.png',
+      type: 'image/png',
+      sizes: '120x120',
+    },
+  },
 };
 
 export default function RootLayout({
