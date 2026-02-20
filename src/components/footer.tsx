@@ -11,9 +11,14 @@ export function Footer() {
               <p className="text-sm text-muted-foreground">
                   © {new Date().getFullYear()} SpeechAce. Все права защищены.
               </p>
-              <Link href="/privacy" className="text-xs text-muted-foreground underline-offset-4 hover:text-primary hover:underline">
-                  Политика конфиденциальности
-              </Link>
+              <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-end">
+                <Link href="/privacy" className="text-xs text-muted-foreground underline-offset-4 hover:text-primary hover:underline">
+                    Политика конфиденциальности
+                </Link>
+                <a href="mailto:uvarovn771@gmail.com" className="text-xs text-muted-foreground underline-offset-4 hover:text-primary hover:underline">
+                    Связаться с нами
+                </a>
+              </div>
             </div>
         </div>
       </footer>
