@@ -449,6 +449,24 @@
       "description": "Ребенок изучает текстуры и формы через игру.",
       "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1080",
       "imageHint": "learning textures"
+    },
+    {
+      "id": "article-75",
+      "description": "Логопед занимается с ребенком, используя кубики для объяснения структуры слова.",
+      "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1080",
+      "imageHint": "child blocks"
+    },
+    {
+      "id": "article-76",
+      "description": "Ребенок выкладывает цветные карточки в ряд, тренируя последовательность слогов в слове.",
+      "imageUrl": "https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?q=80&w=1080",
+      "imageHint": "child organizing colorful cards"
+    },
+    {
+      "id": "article-77",
+      "description": "Логопед проводит осмотр артикуляционного аппарата ребенка для проверки подъязычной уздечки.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dad99961?q=80&w=1080",
+      "imageHint": "doctor checking child mouth"
     }
   ]
 }
