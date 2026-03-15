@@ -459,13 +459,13 @@
     {
       "id": "article-76",
       "description": "Ребенок выкладывает цветные карточки в ряд, тренируя последовательность слогов в слове.",
-      "imageUrl": "https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?q=80&w=1080",
+      "imageUrl": "/ArticalsImages/1.jpg",
       "imageHint": "child organizing colorful cards"
     },
     {
       "id": "article-77",
       "description": "Логопед проводит осмотр артикуляционного аппарата ребенка для проверки подъязычной уздечки.",
-      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dad99961?q=80&w=1080",
+      "imageUrl": "/ArticalsImages/2.jpg",
       "imageHint": "doctor checking child mouth"
     }
   ]
