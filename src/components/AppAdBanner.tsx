@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 export function AppAdBanner() {
   const handleAdClick = () => {
     if (typeof window.ym === 'function') {
-      window.ym(106841467, 'reachGoal', 'buy_curse_click');
+      window.ym(106841467,'reachGoal','buy_app_click');
     }
   };
 
@@ -21,7 +21,7 @@ export function AppAdBanner() {
       <div className="flex flex-col items-center gap-6 text-center md:flex-row md:text-left">
         <div className="relative flex h-32 w-32 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl transition-transform duration-300 group-hover:scale-105">
           <img 
-            src="/ArticalsImages/aboutUs.jpeg"
+            src="/ArticalsImages/appIcon.png"
             alt="Наталья Уварова" 
             className="h-full w-full object-cover"
           />
