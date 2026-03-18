@@ -3,6 +3,12 @@
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
+declare global {
+  interface Window {
+    ym: any;
+  }
+}
+
 export function AppAdBanner() {
   const handleAdClick = () => {
     if (typeof window.ym === 'function') {
