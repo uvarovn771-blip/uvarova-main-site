@@ -1,13 +1,22 @@
+'use client';
+
 import { Rocket } from 'lucide-react';
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 export function AdBanner() {
+  const handleAdClick = () => {
+    if (typeof window.ym === 'function') {
+      window.ym(106841467, 'reachGoal', 'buy_curse_click');
+    }
+  };
+
   return (
     <a
       href="https://uvarovn771-blip.github.io/studio/"
       target="_blank"
       rel="sponsored nofollow"
+      onClick={handleAdClick}
       className="group my-8 block rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 p-6 shadow-lg transition-shadow duration-300 hover:shadow-xl"
     >
       <div className="flex flex-col items-center gap-4 text-center md:flex-row md:text-left">
