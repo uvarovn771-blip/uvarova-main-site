@@ -11,6 +11,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { formatDate } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { AdBanner } from '@/components/ad-banner';
+import { AppAdBanner } from '@/components/AppAdBanner';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, PlayCircle } from 'lucide-react';
 
@@ -124,6 +125,8 @@ export default async function ArticlePage({
             />
           </div>
         )}
+
+        <AppAdBanner />
 
         <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
           {compiledContent}
