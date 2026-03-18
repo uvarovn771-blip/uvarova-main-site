@@ -61,8 +61,25 @@ export default async function ArticlePage({
     notFound();
   }
 
-  const { content: compiledContent } = await compileMDX({
-    source: article.content,
+  // Split the content to insert the ad banner in the middle
+  const contentString = article.content;
+  const paragraphs = contentString.split('\n\n');
+  const middleIndex = Math.floor(paragraphs.length / 2);
+
+  const firstHalf = paragraphs.slice(0, middleIndex).join('\n\n');
+  const secondHalf = paragraphs.slice(middleIndex).join('\n\n');
+
+  const { content: compiledFirstHalf } = await compileMDX({
+    source: firstHalf,
+    options: {
+      mdxOptions: {
+        remarkPlugins: [remarkGfm],
+      },
+    },
+  });
+  
+  const { content: compiledSecondHalf } = await compileMDX({
+    source: secondHalf,
     options: {
       mdxOptions: {
         remarkPlugins: [remarkGfm],
@@ -126,10 +143,10 @@ export default async function ArticlePage({
           </div>
         )}
 
-        <AppAdBanner />
-
         <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
-          {compiledContent}
+          {compiledFirstHalf}
+          <AppAdBanner />
+          {compiledSecondHalf}
         </div>
         
         <AdBanner />
