@@ -128,6 +128,8 @@ export default async function ArticlePage({
         <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
           {compiledContent}
         </div>
+        
+        <AdBanner />
       </article>
       <div className="container mx-auto max-w-3xl px-4 pb-12">
         <div className="mt-12 border-t pt-8 text-center">
