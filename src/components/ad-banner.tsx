@@ -19,7 +19,7 @@ export function AdBanner() {
       className="group my-8 block rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 p-6 shadow-lg transition-shadow duration-300 hover:shadow-xl"
     >
       <div className="flex flex-col items-center gap-6 text-center md:flex-row md:text-left">
-        <div className="relative flex h-32 w-32 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-muted/50 transition-transform duration-300 group-hover:scale-105">
+        <div className="relative flex h-32 w-32 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl transition-transform duration-300 group-hover:scale-105">
           <img 
             src="/ArticalsImages/aboutUs.jpeg"
             alt="Наталья Уварова" 
