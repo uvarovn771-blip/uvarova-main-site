@@ -479,6 +479,78 @@
       "description": "Крупный план новорожденного ребенка, который внимательно смотрит в лицо взрослому. Мама находится в непосредственной близости, создавая доверительный зрительный контакт. Мягкий фокус на мимике малыша, передающий момент фиксации внимания на губах говорящего.",
       "imageUrl": "/ArticalsImages/4.jpg", 
       "imageHint": "newborn baby making eye contact with mother during vocalization"
-    }
+    },
+    {
+      "id": "article-80",
+      "description": "Крупный план нежных маминых рук, аккуратно массирующих крошечные ладошки и пальчики новорожденного ребенка. Мягкое естественное освещение, передающее атмосферу заботы и близости. Фокус на тактильном контакте и расслабленном выражении лица малыша.",
+      "imageUrl": "/ArticalsImages/80.jpg", 
+      "imageHint": "gentle hands of a mother massagging tiny baby hands"
+    },
+    {
+      "id": "article-81",
+      "description": "Крупный план нежных маминых рук, аккуратно массирующих крошечные ладошки и пальчики новорожденного ребенка. Мягкое естественное освещение, передающее атмосферу заботы и близости. Фокус на тактильном контакте и расслабленном выражении лица малыша.",
+      "imageUrl": "/ArticalsImages/81.jpg",
+      "imageHint": "gentle hands of a mother massagging tiny baby hands, macro shot, soft natural light, cozy atmosphere"
+      },
+      {
+        "id": "article-82",
+        "description": "Молодая мама сидит лицом к лицу с 7-месячным младенцем. Мама утрированно произносит слоги, широко открывая рот, а малыш внимательно смотрит на ее губы и пытается подражать. Светлая, уютная комната, фокус на мимике и визуальном контакте.",
+        "imageUrl": "/ArticalsImages/82.jpg", 
+        "imageHint": "mother face to face with baby encouraging babbling, focus on mouth and eyes, educational moment"
+      },
+      {
+        "id": "article-83",
+        "description": "Эмоциональный момент: мама держит перед лицом красное яблоко, указывая на свои губы, и четко произносит слово. Годовалый ребенок сидит напротив, завороженно смотрит на маму и пытается приоткрыть рот для повторения. Теплый солнечный свет, акцент на взаимодействии и мимике.",
+        "imageUrl": "/ArticalsImages/83.jpg", 
+        "imageHint": "mother teaching baby first words, holding object near face for articulation focus, developmental play"
+      },
+      {
+        "id": "article-84",
+        "description": "Мама и двухлетний ребенок играют с карточками на ковре. Мама показывает карточку с действием (например, бегущий человечек), а ребенок с интересом тянется к ней. На лице мамы активная артикуляция, она вовлекает ребенка в диалог. Атмосфера обучения через игру, мягкий фокус на взаимодействии.",
+        "imageUrl": "/ArticalsImages/84.jpg", 
+        "imageHint": "mother teaching toddler to speak in phrases using picture cards, interactive speech therapy game, play based learning"
+      },
+      {
+        "id": "article-85",
+        "description": "Эмоциональный кадр: мама и маленький ребенок (около года) смотрят вместе в зеркало. Мама улыбается и указывает на свое отражение, а малыш с любопытством рассматривает маму в зеркале. Мягкое комнатное освещение, акцент на узнавании и эмоциональной связи.",
+        "imageUrl": "/ArticalsImages/85.jpg", 
+        "imageHint": "mother and baby looking in mirror, recognition exercise, emotional bonding, speech therapy context"
+      },
+      {
+        "id": "article-86",
+        "description": "Мама сидит на диване, обнимая притихшего ребенка. Она смотрит на него с любовью и легкой тревогой, а малыш задумчиво прижался к ней. На заднем плане разбросаны кубики. Глубокие мягкие цвета, акцент на защищенности, тишине и эмоциональной поддержке.",
+        "imageUrl": "/ArticalsImages/86.jpg", 
+        "imageHint": "concerned mother hugging quiet toddler, regression in speech support, emotional comfort, cozy home setting"
+      },
+      {
+        "id": "article-87",
+        "description": "Мама стоит чуть поодаль от ребенка, который увлеченно играет с кубиками на полу. Она мягко зовет его по имени, протягивая руки. Ребенок на мгновение замер и начинает поворачивать голову в ее сторону. Светлая детская комната, акцент на моменте установления контакта и слуховом внимании.",
+        "imageUrl": "/ArticalsImages/87.jpg", 
+        "imageHint": "mother calling toddler by name while playing, testing hearing and social response, early childhood development"
+      },
+      {
+        "id": "article-88",
+        "description": "Схематичное, но теплое изображение: врач-стоматолог или логопед в игровой форме просит ребенка открыть рот и поднять язык вверх ('сделать грибок'). Видна уздечка языка, акцент на профессиональном осмотре и спокойствии ребенка. Светлые тона, клиника дружелюбная к детям.",
+        "imageUrl": "/ArticalsImages/88.jpg", 
+        "imageHint": "pediatric dentist examining baby's tongue tie, ankyloglossia checkup, friendly atmosphere, speech therapy preparation"
+      },
+      {
+        "id": "article-89",
+        "description": "Уютный момент: мама и ребенок 5 лет сидят на диване, мама читает книгу, ведя пальцем по тексту. Ребенок с интересом следит за движением пальца. Рядом лежат кубики, но они используются для постройки домика, а не для алфавита. Теплое освещение, атмосфера естественного интереса к чтению.",
+        "imageUrl": "/ArticalsImages/89.jpg", 
+        "imageHint": "mother reading to a 5 year old child, pointing at text, natural learning process, sensitive period for reading"
+      },
+      {
+        "id": "article-90",
+        "description": "Творческий процесс обучения: ребенок и мама вместе лепят буквы из яркого пластилина на столе. Рядом стоит поднос с манкой, на которой пальцем нарисована буква 'Б'. Ребенок улыбается, процесс выглядит как увлекательная игра. Яркие цвета, акцент на тактильном обучении.",
+        "imageUrl": "/ArticalsImages/90.jpg", 
+        "imageHint": "child and mother making clay letters, multisensory learning, tactile alphabet activity, happy educational environment"
+      },
+      {
+        "id": "article-91",
+        "description": "Школьник младших классов сидит за столом и сосредоточенно пишет в тетради. Рядом сидит мама, она не ругает его, а мягко указывает на слово, используя метод проговаривания. На столе лежат цветные карандаши и корректурные пробы. Атмосфера поддержки и спокойного обучения.",
+        "imageUrl": "/ArticalsImages/91.jpg", 
+        "imageHint": "child struggling with writing, mother helping with homework supportively, dysgraphia correction exercises, focused atmosphere"
+      }
   ]
 }
