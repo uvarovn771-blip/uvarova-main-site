@@ -29,10 +29,10 @@ export default function HomeClient({ articles, heroImage }: HomeClientProps) {
         <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2 lg:gap-16">
           <div className="flex flex-col items-start gap-4">
             <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-              Направляем первые слова вашего ребенка
+              Запускаем первые слова вашего ребенка 
             </h1>
             <p className="text-lg text-muted-foreground">
-              Изучите экспертные статьи, практические упражнения и душевные советы, чтобы поддержать речевое путешествие вашего ребенка.
+              Изучите экспертные статьи, практические упражнения и полезные советы, чтобы сделать путешествие по стране речи увлекательным!
             </p>
             <div className="mt-4 flex flex-wrap gap-4">
               <Button asChild className="h-auto rounded-xl px-8 py-4 text-lg font-bold md:px-10 md:py-5 md:text-xl">
